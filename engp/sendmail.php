@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  Template Name: Send Mail
  Description: This template is used to send email to user from the estimate page.
@@ -38,7 +38,7 @@ $message = "
 <title>Cost Estimates</title>
 </head>
 <body>
-<p>Hello $name. <br><br>Here are the details you requested for email: <br><br></p>
+<p>Hello $name. <br><br>以下、以前メールでリクエスト頂いたものの詳細になります。: <br><br></p>
 <p>留学費用 【 $table_title 】 </p> <br>
 <p>学校名: $school_name </p> <br>
 <table border='1' style='text-align: center'>
@@ -73,7 +73,7 @@ $message = "
 <p>この見積りには空港出迎え費用や航空券などの費用は含まれていません。</p>
 <p>オプションなども含めた詳細見積りが必要な場合は、お電話にてお申し出ください。</p>
 <br><br>
-<p>For more information contact us at:</p>
+<p>ご不明な点がございましたら、こちらの電話番号にお問い合わせ下さい。:</p>
 <p>代表　(日本) : 03-5332-7432</p>
 <p>フリーダイヤル: 0120-070-050</p>
 <p>代表　(米国): 310-575-4636</p>
@@ -96,8 +96,8 @@ mail($to,$subject,$message,$headers);
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h4>Email Sent to '<?php echo $email ?>' Successfully! Thank you.</h4>
-				<a href="<?php echo $back ?>">Click here to go back to the previous page...</a>
+				<h4>メールは '<?php echo $email ?>' より送信されました。.</h4>
+				<a href="<?php echo $back ?>">前のページ戻る...</a>
 		</div>
 	</div>
 
