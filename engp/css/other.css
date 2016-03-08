@@ -1,0 +1,1673 @@
+
+/* ===================================================
+
+このスタイルシートは、イングリッシュペディアの
+以下のページに対応しています。
+
+== introduction.php（説明ページ）
+== company.php     （運営会社ページ） 
+== terms.php       （利用規約ページ）
+== policy.php      （個人情報ページ）
+== budget.php      （留学費用の相場ページ）
+== city.php        （どの都市に留学する？ページ）
+== visa.php        （アメリカ学生ビザ取得方法についてページ）
+
+作成日　2014年9月〜
+作成者　日笠
+====================================================== */
+
+img{
+	max-width: 100%
+}
+
+.int_space{
+	height: 40px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.int_main{
+	margin: 0 auto;
+	margin-bottom: 50px;
+	max-width: 960px;
+}
+
+.int_main_small{
+	margin: 0 auto;
+	margin-bottom: 50px;
+	max-width: 860px;
+}
+
+/* =========================================== 
+		タイトル、見出し、hタグ
+=============================================*/
+
+/*---↓ 説明ページ ↓---*/
+
+.int_h{
+	margin: 0 auto;
+	font-size: 200%;
+	font-weight: 600;
+	padding: 40px 0 6px 16px;
+	letter-spacing: 0.14em;
+	display: block;
+	max-width: 1040px;
+	width: 0 auto;
+	text-align: left;
+}
+
+.int_catch h2{
+	font-size: 28px;
+	color: #3163b9;
+	margin-bottom: 32px;
+	letter-spacing: 0.14em;
+	line-height: 2em;
+}
+
+.int_title h2{
+	font-size: 24px;
+	font-weight: 600;
+	padding: 10px 0px 8px 60px;;
+	letter-spacing: 0.2em;
+}
+
+.int_box2 h2{
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	color: #1a82e6;
+}
+
+.int_title{
+	border-bottom: solid #f4f4f4 6px;
+	margin: 70px 0 30px 0;
+}
+
+.circle{
+	width: 40px;
+	height: 40px;
+	-webkit-border-radius: 20px;/* width,heightの半分 */
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color: #fff8c0;/* 円の色 */
+	font-size: 24px;
+	font-weight: 900;
+	color: #666;
+	padding:4px 0 0 12px;
+	float: left;
+}
+
+/*---↓ 運営会社ページ ↓---*/
+
+.com_title h2{
+	font-size: 22px;
+	font-weight: 600;
+	padding: 0 0 14px 0px;
+	letter-spacing: 0.2em;
+	line-height:2em;
+}
+
+.com_title{
+	
+	margin:55px 0 10px 0;
+}
+
+.com_mission{
+	line-height:1.8em;
+	letter-spacing: 0.07em;
+}
+
+.com_mission h1{
+	font-size: 18px;
+	font-weight: 600;
+	color: #0137a4;
+	padding-bottom: 10px;
+}
+
+.com_mission h2{
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0;
+}
+
+.com_title2{
+	display:block;
+	width: 100%;
+	background-color: #1e4ca0;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	padding: 12px 0 10px 30px;
+	margin: 0 auto 30px auto;
+}
+
+
+/*---↓ 利用規約ページ ↓---*/
+
+table.term h2{
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+}
+
+/*---↓ 個人情報ページ ↓---*/
+
+td.poli_title {
+	border-bottom:#f5f5f5 solid 6px;
+}
+
+/*---↓ 留学費用の相場ページ ↓---*/
+
+.bud_title {
+	margin: 70px auto 30px auto;
+}
+
+/*---↓ どの都市に留学する？ページ ↓---*/
+
+.cit_box_h1{
+	border-bottom: #ddd solid 1px;
+	margin: 0 3px 15px 3px;
+}
+
+.cit_box h1{
+	color:#3163b9;
+	font-size: 26px;
+	font-weight: 600;
+	margin-top: 14px;
+	text-align: left;
+}
+
+.cit_box h2{
+	color:#3163b9;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.cit_name{
+	color: #CCC;
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+
+/*---↓ アメリカ学生ビザ取得方法についてページ ↓---*/
+
+.visa_box{
+	max-width: 660px;
+	border-bottom: #ddd solid 1px;
+	margin: 10px auto 15px auto;
+	padding: 10px 0 10px 0;
+}
+
+.visa_box h1{
+	color: #e60012;
+	display:block;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+	margin-top: 14px;
+	text-align: left;
+}
+.visa_box h2{
+	color:#3163b9;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.visa_name{
+	color: #CCC;
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+.visa_titleimg{
+	padding-top: 4px;
+	vertical-align: middle;
+}
+
+.circle2{
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 15px;/* width,heightの半分 */
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #fff;/* 円の色 */
+	font-size: 18px;
+	font-weight: 900;
+	color: #444;
+	padding:0 0 0 8px;
+	float: left;
+}
+
+h1.other_title{
+	font-size: 26px;
+	font-weight: 600;
+	color: #fff;
+	text-align: left;
+	margin: 40px 0;
+	padding: 20px 15px 15px 45px;
+	letter-spacing: 0.1em;
+}	
+
+.other_title1{
+	max-width: 960px;
+	background-image: url(../images/bg_city.png);
+	background-image: no-reprat;
+}
+
+.other_title2{
+	max-width: 960px;
+	background-image: url(../images/bg_budget.png);
+	background-image: no-reprat;
+}
+
+.other_title3{
+	max-width: 960px;
+	background-image: url(../images/bg_visa.png);
+	background-image: no-reprat;
+}
+
+	
+
+/* =========================================== 
+		文章
+=============================================*/
+
+/*---↓ 説明ページ ↓---*/
+
+.int_annot{
+	font-size: 14px;
+	color: #333;
+	padding-top: 10px;
+}
+
+.int_letter1{	
+	font-size: 18px;
+	color: #333;
+	letter-spacing: 0.08em;
+	line-height: 2em;
+}
+
+.int_letter2{
+	font-size: 26px;
+	color: #3163b9;
+	letter-spacing: 0.14em;
+	line-height: 1.5em;
+}
+
+.int_letter3{
+	font-size: 18px;
+	color: #555;
+	letter-spacing: 0.14em;
+	line-height: 1.4em;
+}
+
+.int_letter5{
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+	letter-spacing: 0.14em;
+	line-height: 2em;
+	padding-top: 24px;
+}
+
+.int_letter7{
+	font-size: 24px;
+	color: #333;
+	letter-spacing: 0.14em;
+	line-height: 2em;
+}
+
+#contact_box h3{
+	text-align:center;
+	font-size: 26px;
+	font-weight: 700;	
+	padding-left:15px;
+}
+
+/*---↓ 運営会社ページ ↓---*/
+
+.com_title p{
+	font-size: 16px;
+}
+
+.term_bold{
+	font-weight: 700;
+}
+
+.com_mission_letters{
+	width: 94%;
+	margin: 70px auto 40px auto;
+}
+
+.com_mission_letters1{
+	width: 94%;
+	margin: 30px auto 40px auto;
+}
+
+
+/*---↓ 利用規約ページ ↓---*/
+
+table.term p{
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	margin: 0 auto;
+	padding-bottom: 44px;
+	line-height: 2em;
+}
+
+.term_line{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 auto;
+	letter-spacing: 0.3em;
+}
+
+/*---↓ 個人情報ページ ↓---*/
+
+td.poli_line {
+	border-bottom: #eee solid 1px;
+}
+
+td.poli_line p{
+	font-size:14px;
+	margin:0 auto;
+	padding: 44px 0;
+}
+
+p.poli_last{
+	font-size:14px;
+	margin:0 auto;
+	padding:44px 0;
+}
+
+.com_bold_color{
+	font-weight:600;
+	color:#F66;
+}
+
+.com_bold_color2{
+	font-weight:600;
+	color:#1e4ca0;
+}
+
+
+
+/*---↓ 留学費用の相場ページ ↓---*/
+
+.other_bold{
+	font-weight:600;
+}
+
+.bud_title h1{
+	font-size: 26px;
+	font-weight: 800;
+	color: #ff4c36;
+	text-align: center;
+	margin-bottom: 40px;
+}	
+
+/*---↓ どの都市に留学する？ページ ↓---*/
+
+.cit_letter{
+	font-size: 18px;
+	color: #555;
+	letter-spacing: 0.14em;
+	line-height: 1.4em;
+	max-width: 100%;
+	padding-left: 30px;
+	text-align:left;
+}
+
+.cit_letter2 h2{
+	font-size: 18px;
+	color: #555;
+	letter-spacing: 0.14em;
+	line-height: 1.6em;
+	max-width: 100%;
+	padding-left: 30px;
+	font-weight: 300;
+	text-align:left;
+}
+h3.cit_search{
+	width:98%;
+	background-color:#68B0E7;	
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:3px;
+	font-weight:700;
+	text-align:center;
+	padding:15px 5px;
+	margin:15px auto;
+	border-radius:5px;
+}
+h3.cit_search:hover{
+	background-color:#3163B9;
+}
+/*---↓ アメリカ学生ビザ取得方法についてページ ↓---*/
+
+.visa_letter {
+	max-width:  600px;
+	margin: 30px auto;
+	font-size: 18px;
+	color: #555;
+	letter-spacing: 0.08em;
+	line-height: 2em;
+
+}
+
+.visa_letter2{
+	font-size: 18px;
+	color: #555;
+	letter-spacing: 0.14em;
+	line-height: 1.4em;
+}
+
+.visa_bold{
+	font-weight: 700;
+	color:#F30;
+}
+
+
+	
+/* =========================================== 
+		枠、スペース
+=============================================*/
+
+/*---↓ 運営会社ページ ↓---*/
+
+.con_companyinfo{
+	max-width: 860px;
+	margin: 30px auto;
+}
+
+.com_mission{
+	max-width: 860px;
+	background-color: #f7fbff;
+	border: #c8dbee solid 1px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.com_mission2{
+	max-width: 860px;
+	background-color: #f7fbff;
+	padding: 30px;
+	margin: 30px auto 50px auto;
+}
+
+.com_mission3{
+	max-width: 1120px;
+	background-color: #f7fbff;
+	padding: 30px;
+	margin: 50px auto 30px auto;
+}
+
+.com_mission4{
+	max-width: 860px;
+	background-color: #f7fbff;
+	padding: 30px;
+	margin: 60px auto 50px auto;
+	border: #c8dbee solid 1px;
+}
+
+.com_ad{
+	background-color: #f5f5f5;
+	border: solid 1px #ddd;
+	padding: 0 20px 20px 20px;
+	margin: 0 auto 20px auto;
+	border-radius: 5px;
+}
+
+.com_ad h2{
+	font-size: 26px;
+	padding: 0;
+	margin-bottom: 15px;
+	font-weight: 800;
+	color: #555;
+	line-height: 1.4em;
+	letter-spacing: 0.06em;
+}
+
+.com_adp{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.4em;
+	letter-spacing: 0.06em;
+}
+
+.com_color{
+	color: #ff6666;
+	font-size: 28px;
+}
+	
+
+
+/*---↓ 説明ページ ↓---*/
+
+.int_box1{
+	width: 100%;
+	border: solid #eee 1px;
+	margin-top: 50px;
+	padding: 30px 0 20px 20px;
+}
+
+.int_box2{
+	border: solid 1px #d0e8ff;
+	background-color: #f6fdff;
+	margin-top: 30px;
+	padding:0 18px 18px 18px;
+}
+
+.int_box3{
+	background-color: #5d87cb;
+	width: 100%;
+	height: 44px;
+	margin-top: 30px;
+	padding-top: 6px;
+	color:#FFF;
+	font-size:24px;
+	text-align:center;
+	letter-spacing: 0.12em;
+}
+
+.int_box4{
+	border: solid #eeeeee 1px;
+	margin: 0px 0 40px 0;
+	padding: 24px;
+}
+
+.int_entry1{
+	background-color: #eef3fa;
+	padding: 4px 0 4px 130px;
+	margin-bottom: 10px;
+	}
+
+.int_entry1-2{
+	width: 100px;
+	height:100%;
+	float: left;
+	background-color: #5d87cb;
+	text-align: center;
+	color:#FFF;
+	font-weight: 500;
+	padding: 4px;
+}
+
+.int_entry3{
+	background-color: #fff2f6;
+	padding: 4px 0 4px 130px;
+	margin-bottom:40px;
+}
+
+.int_entry3-2{
+	width: 100px;
+	height: 100%;
+	float: left;
+	background-color: #ff94a8;
+	text-align: center;
+	color: #FFF;
+	font-weight: 500;
+	padding: 4px;
+}
+
+.int_seminar{
+	border: solid 6px #f4f4f4;
+	padding: 34px 24px 34px 24px;
+	margin: 120px 0;
+	font-size: 20px;
+	line-height: 2em;
+}
+
+.int_seminar h2{
+	color: #3163b9;
+	font-weight: 800;
+}
+
+.int_mov{
+	margin-left: auto;
+	padding: 30px 0 0 0;
+}
+
+/*---↓ 個人情報ページ ↓---*/
+
+.poli_info{
+	background-color: #f4faff;
+	padding: 30px 30px 0px 30px;
+	margin: 0 auto;
+}
+
+/*---↓ 留学費用の相場ページ ↓---*/
+
+.bud_budget{
+	border: solid 1px #ddd;
+	padding: 14px;
+	font-size: 16px;
+	margin-top: 20px;
+	}
+	
+.bud_title{
+	max-width: 960px;
+}
+
+.bud_middle{
+	margin: 0 auto;
+}
+
+.bud_width{
+	max-width: 860px;
+	margin: 0 auto;
+}
+	
+.bud_top{
+	margin: 30px 0;
+}
+
+.bud_nomagin{
+	margin-right:0;
+}
+
+.bud_line1{
+	border-left-width: 0px;	
+}
+.bud_line2{
+	border-right-width: 0px;
+	border-left-width: 0px;	
+}
+
+
+
+/*---↓ どの都市に留学する？ページ ↓---*/
+
+.cit_box{
+	border: #ddd solid 1px;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 0 20px 20px 20px;
+}
+
+.cit_temprature{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.cit_cityview{
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+
+
+.visa_plice{
+	width:100%;
+	border: #F66 solid 1px;
+	padding: 18px;
+	margin: 15px auto;
+	font-size: 18px;
+}
+
+/*---↓ 学生ビザ取得方法 ↓---*/
+.visa_largebox{
+	border: #ddd solid 1px;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 0 20px 20px 20px;
+}
+
+
+/* =========================================== 
+		テーブル
+=============================================*/
+
+
+/*---↓ 運営会社ページ ↓---*/
+
+table.com_melissa{
+	border-collapse: collapse;
+	padding: 24px;
+	width: 96%;
+	letter-spacing: 0.2em;
+}
+
+table.com_melissa tr{
+	text-align: left;
+	border-bottom: #ccc dotted 1px;
+}
+
+table.com_melissa th{
+	padding: 20px 30px 20px 0;
+}
+
+table.com_melissa tr td{
+	padding: 14px 0 14px;
+}
+
+table.com_melissa tr td dt{
+	font-weight: bold;
+}
+
+table.com_melissa th.com_th{
+	text-align: center;
+}
+
+table.com_melissa2{
+	padding: 24px;
+	width: 96%;
+	letter-spacing: 0.2em;
+	margin: 0 auto 30px auto;
+}
+
+table.com_melissa2 tr{
+	text-align: left;
+	border-bottom: #ccc dotted 1px;
+}
+
+table.com_melissa2 th{
+	padding: 20px 30px 20px 18px;
+}
+
+table.com_melissa2 tr td{
+	padding: 14px 0 14px;
+}
+
+table.com_melissa2 tr td dt{
+	font-weight: bold;
+}
+
+table.com_melissa2 th.com_th{
+	text-align: center;
+}
+
+.con_padding{
+	padding: 14px 0 14px;
+}
+
+table.com_info{
+	padding: 24px;
+	width: 96%;
+	letter-spacing: 0.2em;
+	margin: 0 auto 30px auto;
+}
+
+table.com_info tr{
+	text-align: left;
+}
+
+table.com_info th{
+	padding: 10px 0 10px 0;
+	font-weight: 400;
+}
+
+.com_noborder{
+	border: none;
+}
+
+.com_border{
+	border-bottom: #ccc dotted 1px;
+}
+
+.com_border2{
+	border-bottom: #f4f4f4 solid 5px;
+}
+
+.com_tdesign {
+	padding: 8px 0 10px 8px;
+	background-color:#f5f5f5;
+}
+
+.com_tdesign2 {
+	padding: 15px 0 15px 15px;
+}
+
+
+
+/*---↓ 利用規約ページ ↓---*/
+
+table.term{
+	margin: 0 auto;
+	padding: 20px;
+}
+
+table.term tr{
+	padding-left: 50px;
+}
+
+table.term th{
+	margin: 20px 30px 20px 0;
+}
+
+table.term tr td{
+	padding: 10px;
+}
+
+table.term tr td.num{
+	padding-left: 20px;
+	font-size: 30x;
+	font-weight: 800;
+	background-color: #f5f5f5;
+}
+
+/*---↓ 留学費用の相場ページ ↓---*/
+
+.bud_budget_example {
+	width: 100%;
+}
+
+.bud_budget_example tr td {
+	padding: 10px 6px 6px 6px;
+}
+
+.bud_1month {
+	background-color:#c09864;
+	color: #FFF;
+}
+
+.bud_budget_money{
+	border-top: solid 2px #eee;
+	color:#ff4c36;
+	font-weight:600;
+}
+
+.bud_term1{
+	margin-bottom: 10px;
+	background-color: #c09864;
+	border-radius: 3px;
+	text-align: center;
+	color: #FFF;
+	font-weight: 700;
+	height: 50px;
+}
+
+.bud_term2{
+	background-color: #ff8f79;
+	border-radius: 3px;
+	text-align: center;
+	color: #FFF;
+	font-weight: 700;
+	height: 50px;
+}
+
+.bud_term3{
+	background-color: #e58913;
+	border-radius: 3px;
+	text-align: center;
+	color: #FFF;
+	font-weight: 700;
+	height: 50px;
+}
+
+.bud_term4{
+	background-color: #f65f42;
+	border-radius: 3px;
+	text-align: center;
+	color: #FFF;
+	font-weight: 700;
+	height: 50px;
+}
+
+.bud_nopadding{
+	padding: 0;
+}
+
+.bud_margintop{
+	margin:6px auto 0 auto;
+}
+
+
+/*---↓ どの都市に留学する？ページ ↓---*/
+
+.cit_btn_table{
+	width: 100%;
+	background-color: #3163b9;
+	color: #FFF;
+	margin: 30px auto;
+	line-height: 0.86em;
+}
+
+.cit_btn_table tr td{
+	text-align: center;
+	border: #FFF solid 1px;
+	width: 20%;
+}
+
+.cit_btn_table a{
+	color:#FFF;
+	display:block;
+	height: 46px;
+	padding-top: 16px;
+	width: 100%;
+}
+
+.cit_btn_td a:hover {  
+color: #fff;
+background-color: #6e91ce;  
+}
+
+
+/*---↓ アメリカ学生ビザ取得方法についてページ ↓---*/
+
+.visa_btn_table{
+	width: 100%;
+	background-color: #f6eaea;
+	color: #594545;
+	margin: 30px auto;
+	line-height: 1.3em;
+}
+
+.visa_btn_table tr td{
+	text-align: center;
+	border: #FFF solid 2px;
+	width: 25%;
+}
+
+.visa_btn_table a{
+	color:#594545;
+	display:block;
+	padding: 16px;
+	width: 100%;
+}
+
+.visa_btn_td a:hover {  
+color: #594545;
+background-color: #ffd8d8;  
+}
+
+.visa_table td{
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+.visa_table {
+	padding: 10px;
+	background-color: #fff8f4;
+	border: 1px solid color#FFF;
+}
+
+td.visa_number {
+	background-color: #ffede3;
+}
+
+td.visa_table_img{
+	background-color: #FFF;
+	text-align:center;
+}
+
+/* =========================================== 
+		画像
+=============================================*/
+
+.loupe{
+	float: left;
+	padding: 15px 20px 0 30px;
+}
+
+.int_img01{
+	padding-top: 20px;
+}
+
+.int_img02{
+	padding-top: 20px;
+	width:70%;
+}
+
+
+.int_img04{
+	padding-top: 30px;
+}
+
+.int_img05{
+	padding-left: 4px;
+}
+
+.int_icon01{
+	padding:0px 8px 3px 0px;
+}
+
+.com_logo{
+	text-align: center;
+	margin: 30px 0 50px 0;
+}
+
+.com_logo2{
+	margin: 30px 0 40px 30px;
+}
+
+.com_img01{
+	margin: 30px auto 0 auto;
+}
+
+.visa_img{
+	width: 300px;
+	height: 200px;
+	margin: 15px auto 0 auto;
+}
+	
+/* =========================================== 
+		リスト
+=============================================*/
+
+.int_li{
+	max-width: 680px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.int_prob li{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 130%;
+    padding: 8px 4px;
+	list-style: none;
+	list-style: url(../images/int_tri02.png);  	
+}
+
+.term li{
+    padding: 8px 4px;
+	line-height: 1.4em;
+}
+
+/* =========================================== 
+			ボタン
+=============================================*/
+  
+.int_button{
+	text-align: center;
+	width: 295px;
+	height: 50px;
+	background-color: #3163b9;
+	font-weight: 500;
+	color: #fff;
+	padding: 16px 0 0 0;
+    margin: 20px auto 10px auto;
+	border-radius: 3px;
+	}
+
+.int_button2{
+	letter-spacing: 0.14em;
+	display: block;
+	border: none;
+	text-align: center;
+	width: 296px;
+	height: 50px;
+	background-color: #3163b9;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	padding: 16px 0 0 14px;
+	margin: 20px auto 0px auto;
+	border-radius: 3px;
+}
+
+.int_button3{
+	letter-spacing: 0.14em;
+	text-align: center;
+	height: 60px;
+	font-weight: 500;
+	color: #3163b9;
+	padding: 18px 0 0 6px;
+    margin: 4px auto 14px auto;  
+	border: solid 1px #CCC;
+	background-color: #FFF;
+	border-radius: 3px;
+}
+
+
+
+.int_button4{
+	letter-spacing: 0.14em;
+	border: none;
+	text-align: center;
+	width: 294px;
+	height: 50px;
+	background-color: #3163b9;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	padding: 16px 0 0 14px;
+	margin-top: 20px;
+	float: right;
+	border-radius: 3px;
+}
+
+.int_button5{
+	margin: 25px auto;
+	letter-spacing: 0.14em;
+	text-align: center;
+	width: 294px;
+	height: 50px;
+	background-color: #3163b9;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	padding: 17px 0 0 14px;
+	border-radius: 3px;
+}
+
+.int_btn_img1{
+	width: 46%;
+	float: left;
+	font-size: 12px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.int_btn_img2{
+	font-size: 12px;
+	text-align: center;
+}
+
+.int_tri{
+	padding: 0 10px 4px 0;
+}
+
+	
+/* -. 下部カウンセリングのお申し込みボタン .- */
+
+.btndeco3 {
+padding: 12px;
+border-radius: 3px;
+margin: 6px auto;
+color: #06C;
+font-weight: 600;
+font-size: 100%;
+text-align: center;
+height: 44px;
+width: 100%; 
+background-color: #ffe400;
+}  
+
+.btndeco3:hover {  
+	color: #438bd4;
+	background-color: #fff279;  
+}
+
+
+/* -. 運営会社ページボタン .- */
+
+.btndeco4 {
+	padding: 12px;
+	border-radius: 3px;
+	margin: 6px auto;
+	color: #fff;
+	font-weight: 600;
+	font-size: 100%;
+	text-align: center;
+	width: 60%; 
+	background-color: #3163b9;
+}  
+
+.btndeco4 a{
+	color: #FFF;
+}
+
+.btndeco4:hover {  
+	background-color: #5580cf;  
+}
+
+.btndeco5 {
+	padding: 12px;
+	border-radius: 3px;
+	margin: 6px auto;
+	color: #0077ee;
+	font-weight: 600;
+	font-size: 100%;
+	text-align: center;
+	width: 60%; 
+	background-color: #ffe400;
+}  
+
+.btndeco5 a{
+	color: #0077ee;
+}
+
+.btndeco5:hover {  
+background-color: #fff497;  
+}
+
+
+
+/* -.  トップへ戻るボタン .- */
+
+.btn_totop {
+padding: 12px;
+border-radius: 3px;
+color: #ddeeff;
+font-weight: 600;
+font-size: 100%;
+text-align: center;
+height: 40px;
+width: 40px; 
+background-color: #fff;
+text-align:right;
+vertical-align:middle;
+border: solid 1px #ddeeff;
+margin-bottom: 35px;
+}  
+	
+.btn_totop:hover {  
+background-color: #f6faff; 
+color: #c3ddf7;
+}
+
+#cit_btn_totop {
+	text-align: right;
+}
+
+.cit_right {
+	text-align: right;
+}
+
+/* =========================================== 
+			その他
+=============================================*/
+
+.lang_space{
+	height:30px;
+}
+
+.com_bold{
+	font-weight: 600;
+	padding: 3px 0 0 0;
+}
+
+.com_bold2{
+	padding: 20px 0 20px 15px;
+}
+
+.com_movie{
+	text-align: center;
+}
+
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.other_bn{
+	max-width: 860px;
+	margin: 30px auto 0 auto;
+}
+/* =========================================== 
+ 		画像表示切り替えCSS			　　　		
+=============================================*/
+
+
+/* -.-.-.-.-.-.-.- スマホサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+
+	.int_h{
+		margin: 0 auto;
+		font-size: 180%;
+	}
+
+	.int_catch h2{
+		font-size:16pt;
+		font-weight:700;
+	}
+	
+	.mob_top_banner_center{
+		padding-right:8px;
+		padding-left:8px;
+	}
+
+	.mob_top_banner_left{
+		padding-left:1px;
+	}
+	
+	.int_space{
+		display:none;
+	}
+	
+	.int_title {
+		margin: 30px 0 30px 0;
+	}
+	
+	.int_title h2 {
+		font-size: 20px;
+		letter-spacing: 0.1em;
+		padding: 10px 0px 8px 50px;		
+	}
+	
+	.int_letter2{
+		font-size: 22px;
+	}
+	
+	.int_letter5{
+		letter-spacing: 0.05em;
+		text-align:center;
+	}
+	.com_title2{
+		font-size: 20px;
+		font-weight: 500;
+		padding: 12px 0 10px 10px;
+	}
+	.com_mission_letters{
+		margin: 30px auto 40px auto;
+	}	
+	.btndeco4 {
+		width: 100%; 
+	}  
+	.int_main_small{
+		margin-bottom: 20px;
+	}
+	
+	#contact_box h3{
+		text-align:left;
+		color: #0137a4;	
+		font-size: 16px;
+		font-weight: 700;	
+		padding-left:15px;
+	}
+	
+	
+	/* どの都市に留学する？*/
+	.cit_box h1{
+		font-size: 24px;	
+		text-align:center;		
+	}
+	.cit_name {
+		font-size: 15px;
+		margin-top:0px;
+	}
+	.cit_box{
+		text-align:center;
+		padding:0 5px 5px 5px;
+	}
+	.cit_box h2{
+		font-size: 11pt;	
+	}
+	.cit_letter{
+		font-size: 10pt;	
+		padding-left: 15px;	
+	}
+	.cit_letter2 h2{
+		padding-left: 0px;
+	}
+	
+	h3.cit_search{
+		font-size:14px;
+	}
+
+	
+	h1.other_title {
+		font-size: 17px;
+		margin: 40px 0 20px 0;		
+		padding: 20px 15px 15px 25px;
+		letter-spacing: 0.05em;
+	}
+	.int_letter3 {
+		font-size: 15px;
+		color: #555;
+		letter-spacing: 0.01em;
+	}
+	
+	
+	
+	/* 留学費用の相場*/	
+	.int_img02{
+		display:block;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	.bud_title {
+		margin: 40px auto 20px auto;
+	}
+	
+	.bud_title h1 {
+		font-size: 22px;
+	}
+	
+	.bud_img01{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:75%;
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+	.int_main {
+		margin-bottom: 20px;
+	}
+	
+	.bud_line1{
+		border-left-width: 1px;		
+		border-right-width: 1px;
+	}
+	
+	.bud_line2{
+		border-left-width: 1px;	
+		border-right-width: 1px;		
+	}
+
+	/* 学校関係者の方へ */	
+	.com_mission {
+		padding: 10px;
+	}
+	.btndeco5 {
+		width: 100%;
+		padding: 12px 5px 12px 5px;		
+		font-size: 95%;		
+	}
+
+	/* ビザ取得方法について */	
+	.visa_letter {
+	max-width:  600px;
+	margin: 30px auto;
+	font-size: 16px;
+	color: #555;
+	letter-spacing: 0.06em;
+	line-height: 1.7em;
+	text-align: left;
+	}
+	
+	.visa_img{
+	width: 150px;
+	height: 100px;
+	margin: 15px auto 0 auto;
+	}
+
+	.visa_box{
+	text-align: center;
+	padding: 5px;
+	}
+	
+	.visa_table td{
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 16px;
+	}
+	
+	.visa_plice{
+	width:100%;
+	border: #F66 solid 1px;
+	padding: 15px;
+	margin: 15px auto;
+	font-size: 16px;
+	}
+	
+	.visa_largebox{
+	border: #ddd solid 1px;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 0 10px 10px 20px;
+	}
+
+	.visa_largebox h1{
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 14px;
+	text-align: center;
+	}
+	
+	/* 運営会社 */	
+	.com_title{
+	margin: 0 0 30px 0;
+	border-bottom: none;
+	}
+	
+	.com_title h2{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 0 0 14px 0px;
+	letter-spacing: 0.05em;
+	line-height:2em;
+	}
+
+	table.com_info th{
+	padding: 8px 10px 0 10px;
+	font-weight: 400;
+	}
+}
+
+/* -.-.-.-.-.-.-.- モバイル：極小(iphone4,5など)  -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:371px){
+
+	/* EnglishPediaのサポート */
+	.int_button3{
+		letter-spacing: 0em;
+	}
+	
+	.int_box2 h2 {
+		font-size: 19px;
+	}
+	
+	.int_h{
+		font-size:160%;
+	}
+	.int_title h2 {
+		font-size: 16px;
+	}
+	
+	.int_letter2 {
+		font-size: 18px;
+	}
+	
+	.int_button2 {
+		letter-spacing: 0em;
+		width: 250px;
+	}
+	
+	.com_title2 {
+		font-size: 18px;
+		margin: 0 auto 15px auto;		
+	}
+	
+	#contact_box h3{
+		font-size:14px;
+	}
+	
+	/* 各都市の詳細 */
+	h1.other_title {
+		font-size: 14px;
+	}
+	
+	.cit_name {
+		font-size: 13px;
+	}
+	
+	/*　ビザ */
+	
+	.visa_largebox{
+		padding: 0 10px 10px 10px
+	}
+	.visa_largebox h1 {
+		font-size: 14px;
+	}
+	.visa_box {
+		padding: 10px 0;
+	}
+	
+	/* 語学学校関係者の方へ */
+	.com_mission h1{
+		font-size: 15px;
+	}
+	
+	.btndeco5{
+		font-size:80%;		
+	}	
+}
+
+
+/* -.-.-.-.-.-.-.- タブレットサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px) and (max-width:992px){
+
+	/* EnglishPediaについて*/
+	.int_catch h2{
+		font-size:17pt;		
+	}
+	.loupe{
+		padding: 0px 20px 0 30px;
+	}
+		
+	/* どの都市に留学する？*/	
+	.cit_name {
+		font-size: 20px;
+		margin-top:13px;
+	}
+	.cit_box h1 {
+		font-size: 24px;
+	}
+	.cit_box h2 {
+		font-size: 17px;	
+	}
+	
+	.int_letter3 {
+		font-size: 14px;
+	}
+	
+	
+	.cit_letter {
+		font-size: 15px;
+	}
+
+/* 留学費用の相場*/		
+	.bud_title h1 {
+		font-size: 24px;
+	}
+	.bud_line1{
+		border-left-width: 0px;		
+		border-right-width: 1px;
+	}
+	.bud_line2{
+		border-left-width: 1px;	
+		border-right-width: 0px;		
+	}
+	
+	
+}
+
+/* -.-.-.-.-.-.-.- PCサイズ -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px){
+
+	/* トップ：留学説明会部分 */
+	.seminer_img{
+		width:100%;
+	}
+}
+
+/* -.-.-.-.-.-.-.- PCとタブレットの間 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:981px) and (max-width:1201px){
+	
+	/* トップ：留学説明会部分 */
+	.seminer_img{
+		width:100%;
+	}
+	.top_seminor_box{
+		padding-bottom:30px;
+	}
+
+}

@@ -1,0 +1,1229 @@
+/*
+	css/post.css
+	説明:固定ページ作成用スタイルシート
+	制作日:2015年3月2日　
+	制作者:内田
+*/
+
+
+
+/* -------------------------------------------- */
+/* 		投稿用CSS　　 				*/
+/* -------------------------------------------- */
+
+/* ---ページタイトル部分--- */
+
+.post_title{
+	margin: 0 auto;
+	font-size: 200%;
+	font-weight: 600;
+	padding: 40px 0 6px 0;
+	letter-spacing: 0.14em;
+	display: block;
+	text-align: left;
+}
+
+.posttitle_hr{
+	margin:0 auto 40px auto;
+	border-bottom:#eee solid 1px;
+}
+
+
+/* ---見出し、文章--- */
+
+.post-content{
+	margin: 40px auto;
+	line-height:1.5em;
+	letter-spacing:0.07em;
+}
+
+.post-content h1{
+	font-size: 140%;
+	color:#444;
+	padding:10px 15px 8px 20px;
+	display:block;
+	background-color:#f5f5f5;
+	font-weight:400;
+	margin:40px 0 20px 0;
+	line-height:1.5em;
+	border-radius:4px;
+	border: solid 1px #ddd;
+}
+
+.post-content h2{
+	font-size: 120%;
+	color:#333;
+	padding:10px 15px 8px 20px;
+	display:block;
+	background-color:#f5f5f5;
+	font-weight:400;
+	margin:30px 0 20px 0;
+	line-height:1.4em;
+	border-radius:4px;
+	border: solid 1px #ddd;
+}
+
+.post-content h3{
+	font-size: 110%;
+	color:#333;
+	padding:10px 15px 8px 0;
+	display:block;
+	font-weight:400;
+	margin:30px 0 10px 0;
+	line-height:1.6em;
+}
+
+.post-content h4{
+	font-size: 100%;
+	color:#333;
+	padding:10px 15px 8px 0;
+	display:block;
+	font-weight:400;
+	margin:30px 0 10px 0;
+	line-height:1.6em;
+}
+
+.post-content p{
+	padding: 0 10px 10px 10px;
+}
+
+/* ---文章&画像のセット--- */
+
+.img-p{
+	max-width:800px;
+}
+
+.p-right{
+	padding-right:10px;
+	line-height:1.7em;
+}
+
+.p-left{
+	padding:0 10px 20px 20px;
+	line-height:1.5em;
+}
+	
+
+/* ---画像--- */
+@media screen and (min-width:768px){
+.post-content img{/*
+	max-width: 180px;
+	max-height: 120px;*/
+	padding: 0 0 20px 0;
+}
+}
+
+@media screen and (max-width:767px){
+.post-content img{
+	max-width: 100%;
+	padding: 0 0 20px 0;
+}
+}
+
+.img-right{
+	text-align:right;
+}
+
+.img-left{
+	text-align:left;
+}
+
+.img-center{
+	text-align:center;
+}
+
+.other_bn img{
+	max-width: 100%;
+	padding: 0 0 20px 0;
+}
+
+.other_bn img{
+	max-width: 100%;
+	padding: 0 0 20px 0;
+}
+
+#contact_box img{
+	max-width: 100%;
+	padding: 0 0 20px 0;
+}
+
+
+/* ---『Edit』ボタン--- */
+
+.edit-link{
+	display:block;
+	float:right;
+	width:100px;
+	padding:10px;
+	border:#ddd solid 1px;
+	text-align:center;
+	border-radius:3px;
+}
+
+.edit-link a{
+	color:#666;
+}
+
+/* -------------------------------------------- */
+/* 		サイドバー	 								*/
+/* -------------------------------------------- */
+
+ div.sidebar{
+	padding: 10px;
+}
+
+#sidebar_area h2.widget-title{
+	font-size: 120%;
+	color: #333;
+	padding: 10px 15px 8px 20px;
+	display: block;
+	background-color: #eee;
+	font-weight: 700;
+	margin: 30px 0 20px 0;
+	line-height: 1.4em;
+	letter-spacing: 2px;
+}
+	
+
+
+#sidebar_area li.popular_post{
+	border-bottom:dashed 1px #cdcdcd;
+	padding-bottom:10px;
+	margin-top:10px;
+	
+}
+
+#sidebar_area ul.widget{
+	list-style: none;
+	padding: 0px;	
+}
+
+#sidebar_area li.popular_post{
+	margin-bottom:10px;
+}
+
+
+#sidebar_area div.thumb{
+	padding-right: 0px;
+	padding-left: 10px;
+	text-align: center;	
+}
+
+#sidebar_area div.summary{
+	padding-left:10px;
+}
+
+#sidebar_area div.srp-widget-singlepost{
+	border-bottom: dashed 1px #cdcdcd;
+	padding-bottom: 10px;
+	margin-top: 0px;
+}
+
+#sidebar_area div.srp-thumbnail-box{
+	text-align: center;
+	margin-right:0px;
+	padding-right: 0px;	
+	padding-left: 10px;
+}
+
+#sidebar_area div.srp-post-content {
+	font-size: 90%;
+}
+
+#sidebar_area div.row{
+	margin:0px;
+}
+
+#sidebar_area img.banner{
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+#sidebar_area h5{
+	margin: 0px;
+}
+
+#banner_space div.for-pc{
+	
+}
+
+#banner_space div.for-mob{
+	margin-top:10px;
+}
+
+
+/* 		サイドバー (スマホ用切り替え)			*/
+@media screen and (max-width:767px){
+
+	#sidebar_area div.srp-thumbnail-box{
+		padding-right: 0px;
+		padding-left: 20px;
+	}
+
+	#sidebar_area div.srp-post-content{
+		padding-left:20px;
+	}
+
+
+
+	#sidebar_area div.thumb{
+		padding-right: 0px;
+		padding-left: 20px;
+	}
+
+	#sidebar_area div.summary{
+		padding-left:20px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====↓↓↓↓以下common.cssからのコピー↓↓↓↓=============================================================================================== */
+
+
+
+/* -------------------------------------------- */
+/* 		基本構造	 							*/
+/* -------------------------------------------- */
+
+
+body, input, textarea {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* --- 背景がeef7ff部分 --- */
+.content_color{		
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #eef7ff;
+	border-top: solid 2px #eaf5ff;
+	border-bottom: solid 2px #f5faff; 
+}
+
+.content_color_new{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #eef7ff;
+	border-top: solid 2px #eaf5ff;
+	border-bottom: solid 2px #f5faff;
+}
+
+.content_color2{		
+	width: 1120px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+img{
+	 vertical-align: middle;
+	 border-style:none;
+}
+
+a img {
+    border-style:none;
+}
+
+a:visited {
+	font-style: normal;
+	text-decoration: none;
+	border-style: none;
+/* 	color: #3099ff; */
+	font-weight: bold; 
+}
+
+a:link {
+	font-style: normal;
+	text-decoration: none;
+	border-style: none;
+/* 	color: #3099ff; */
+	font-weight: bold; 
+}
+
+a {
+	font-style: normal;
+	text-decoration: none;
+	border-style: none;
+	color: #0077ee; 
+	font-weight: bold;
+	overflow: hidden;
+	outline: none;
+}
+
+a:hover {
+	color: #025db8;
+}
+
+/* -------------------------------------------- */
+/* 		全体	 								*/
+/* -------------------------------------------- */
+
+/* 空div */
+.clear {
+	clear: both;
+}
+
+.f_right {
+	/*float: right; */
+	padding-top:5px;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+.d_table {
+	display:table;
+}
+
+.d_tablecell {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.d_tablecell_top {
+	display:table-cell;
+	vertical-align: top;
+}
+
+
+
+/* -------------------------------------------- */
+/* 		ヘッダー	 								*/
+/* -------------------------------------------- */
+
+#masthead {
+	margin: 0 0 -5px 0;
+	padding: 0;
+	width: 100%;
+	background:url(../images/indexbar.jpg) repeat-x top;
+	border: none;
+	border-radius: 0;
+}
+
+/*  --- 「留学のための学校比較サイト　イングリッシュペディア」 --- */
+.header_message{	
+	margin: 0;
+	padding: 14px 20px 0 0;
+	color: #d9e6f3;
+	line-height: 100%;
+	font-size: 80%;
+	font-weight: lighter;
+	letter-spacing: -0.1em;
+}	
+
+.header_p { 
+	margin: 0;
+	padding: 12px 0 0 0;
+	color: #d9e6f3;
+	line-height: 100%;
+	font-size: 80%;
+}
+
+.headercon_p{
+	margin: 0;
+	padding: 28px 0 0 0;
+	font-size: 80%;
+	color: #d9e6f3;
+	line-height: 100%;
+}
+
+#header h3{
+	margin:2px;
+	font-size: 128%;
+	
+}
+
+/* --- お問い合わせ --- */
+.headercon_con_p{
+	/* -margin:5px 4px 0 0;- */
+	padding: 24px 0 0 0;
+	font-size: 90%;
+	color: #d9e6f3;
+	line-height: 100%;
+}
+
+/* --- header 電話番号 --- */
+#telbox{ 	
+	margin: 0 6px 2px 10px;
+	padding: 0;
+	color: #fff;
+}
+
+#telbox h3{
+	margin:2px;
+	font-size: 128%;	
+}
+
+#heade_buttun {
+	margin: 0 0 0 4px;
+}
+
+#heade_buttun img {
+    margin: 8px 0px 4px 2px;
+}
+
+#hr{
+	margin:0 0 28px 0;
+	border-top: solid 1px #ccc;
+	width:100%;
+	height:1px;
+}
+
+/* --- header 追記 --- */
+
+#header_contact {
+	margin-bottom:3px;
+	padding-top: 8px;
+}
+
+h1.header{
+	font-size:70%;
+	color:#fff;
+}
+
+ul.nav li {
+	display:block;
+	/* border-left: solid 1px #ccc; */
+	background-image:url(../images/navi_img_line.png);
+	background-repeat:no-repeat;
+}
+
+ul.nav li a {
+	color:#0077ee;
+	text-decoration:none;
+	padding:15px 10px;
+	}
+	
+ul.nav li a:hover {
+	color:#116dc8; 
+	border-bottom: 1px solid #ccc;
+	padding-bottom:9px;
+	}
+
+li.navi_login_ico {
+	padding-top:13px;
+	padding-right:-3px;
+}
+
+li.navi_firstone{
+	list-style:none;
+	list-style-image:none;
+	color:#F00;
+}
+
+li.navi_login{
+	background-image:url(../images/ico_login.png);
+	background-repeat:no-repeat;
+}
+
+
+/* -------------------------------------------- */
+/* 		グローバルナビ	 						*/
+/* -------------------------------------------- */
+
+#gnavi img{
+	margin: 8px 0 4px 0;
+	padding: 0;
+}
+
+#gnavi ul li {
+	float: left;
+	list-style: none;
+}
+
+
+/* -------------------------------------------- */
+/* 		コンテンツ部分	 						*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- まずはお気軽にお問い合わせください -.-.-.-.-.-.-.-.-.- */
+
+#contact_box {
+	margin: 30px 0 0 0;
+	padding: 6px;
+	background: #f5f5f5;
+}
+
+#contact_box_fff {
+	margin-top: 16px;
+	line-height:1.6em;
+	padding-left: 34px;
+}
+
+#contact_box_right {
+	padding: 8px;
+	text-align:right;
+	float:right;
+}
+
+#contact_box_right h3{
+	margin: 14px 0 0 0;
+	font-size: 180%;
+	font-weight:900;
+}
+
+#contact_box_fff h3{
+	margin: 0 0 14px 0;
+	font-size: 160%;
+	font-weight:900;
+}
+
+
+#all_contact_minibox{
+	width:358px;
+	margin:0;
+	padding:4px 8px;
+	font-weight:normal;
+	color:#333;
+}
+
+#all_contact_minibox img{
+	margin:0 10px 0 8px;
+}
+
+#all_contact_minibox .bigcontact{
+	margin:8px 0 0 0;
+	font-size:250%;
+	color:#333;
+}
+
+#all_contact_minibox .contact_tell{
+	margin:0 ;
+	color:#116dc8;
+	font-size:130%;
+}
+
+#all_contact_button{
+	padding: 0 41px;
+}
+
+/* -.-.-.-.-.-.-.- ボタン -.-.-.-.-.-.-.-.-.- */
+
+
+/* -. 留学のお申し込み .- */
+
+    .btndeco {
+    padding-top:12px;
+	color: #06C;
+	font-size: 84%;
+	vertical-align: middle;
+	height: 36px;  
+	background-color: #fff38c;  
+    }  
+	
+    .btndeco:hover {  
+	color: #438bd4;
+	background-color: #fffdc6;  
+    }
+	
+/* -. カウンセリングのお申し込み .- */
+
+    .btndeco2 {
+    padding-top:12px;
+	color: #06C;
+	font-size: 84%;
+	vertical-align: middle;
+	height: 36px;  
+	background-color: #ffe400;  
+    }  
+	
+    .btndeco2:hover {  
+	color: #438bd4;
+	background-color: #fff279;  
+    }
+
+
+/* -.-.-.-.-.-.-.- バナー -.-.-.-.-.-.-.-.-.- */
+#info_banner {
+	margin: 40px 0 0 0;
+	padding:0;
+}
+
+/* --- コンテンツ部分 追記 --- */
+
+input#submit_button {
+	background-image:none;
+}
+
+.top_seminor {
+	width: 100%;
+	height: 180px;
+	float:right;
+	margin: 14px 10px 0 0;
+}
+
+.align_right {
+	text-align:right;
+}
+
+.top_seemore {
+	float:right;
+	font-size: 12px;
+	background-image:url(../images/sankaku_blue.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding:8px 0 0 10px;
+}
+
+.top_second_row {
+	max-width: 1245px;
+	margin: 0;
+	padding:0;
+	margin:0 auto;
+}
+
+.row_ranking {
+	max-width: 1245px;
+	padding: 0 14px;
+}
+
+/* -.-.-.-.-.-.-.- TOPページ MAPポップアップ 追記 -.-.-.-.-.-.-.-.-.- */
+
+.popup a:hover{
+	position:relative;
+}
+
+.popup_top {
+	position: absolute;
+	top:-60px; left:60px;
+	display:none;
+	padding:5px;
+	width : 170px;
+	font-size : 90%;
+	color:#666;
+	background-color: #eef4ff;
+	border:#dde9ff solid 1px;
+	text-decoration:none;
+	/* -.filter: alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity:0.85;.- */
+	border-radius: 3px;
+}
+
+a:hover .popup_top {
+	display: block;z-index:1;
+}
+
+p.star_map {
+	padding: 8px 0 0 10px;
+	text-align: left;
+}
+
+p.map_popup_letter {
+	color: #36C;
+	text-align: left;
+	padding: 4px 0 0 10px;
+}
+
+/* -------------------------------------------- */
+/* 		お気軽にお問合せ下さい！		 				*/
+/* -------------------------------------------- */
+
+#contact_box h3{
+		text-align:center;
+		margin-top:10px;
+		font-size: 26px;
+		font-weight: 700;	
+		padding-left:15px;
+	}
+
+.bud_margintop{
+	margin:6px auto 0 auto;
+}
+
+.other_bn{
+	max-width: 860px;
+	margin: 30px auto 0 auto;
+}
+
+.btndeco3 {
+	padding: 12px;
+	border-radius: 3px;
+	margin: 6px auto;
+	color: #06C;
+	font-weight: 600;
+	font-size: 100%;
+	text-align: center;
+	height: 44px;
+	width: 100%; 
+	background-color: #ffe400;
+	}  
+	
+.btndeco3:hover {  
+	color: #438bd4;
+	background-color: #fff279;  
+}
+
+
+/* -------------------------------------------- */
+/* 		フッター		 						*/
+/* -------------------------------------------- */
+
+#pageup {
+	margin:10px 34px 34px 0;
+}
+
+#footer {
+	margin: 16px 0 0 0;
+}
+#footer ul{
+	list-style: none;
+}
+
+#footer ul li a{
+	list-style: none;
+	color:#0077ee;
+	font-weight:300;
+}
+
+#footer ul li a:hover {
+	color:#116dc8; 
+	padding-bottom:9px;
+	}
+
+#footer_navi{
+	color:#ccc;
+	margin: 0 auto;
+}
+
+#footer_line {
+	margin: 10px auto 0 auto;
+	padding:4px 0 4px 0;
+	width: 100%;
+	border-bottom: solid 1px #ddeeff;
+	border-top: solid 1px #ddeeff;
+	box-sizing: content-box;
+}
+
+#footer_line h3{
+	font-size:100%;
+	letter-spacing: 0.05em;
+	margin: 10px 0 0 0;
+	padding: 0;
+	color: #3099ff;
+	text-align:center;
+}
+
+#footer_line_bar {
+	width:100%;
+	margin: 10px auto;
+}
+
+#footer .menu_foot1 li {
+	float:left;
+	margin-right: 10px;
+}
+
+#footer .menu_foot a {
+	font-weight: normal; 
+}
+
+#footer_bar {
+	margin: 20px 0 0 0;
+	padding: 24px 0 28px 0;
+	color:#FFF;
+	width: 100%;
+	height: 32px;
+	background: #206ac5;
+	text-align: center;
+}
+
+#footer_bar p{ 
+	font-size:70%;
+	color: #d9e6f3;
+	line-height: 100%;
+}
+
+
+/* -.  トップへ戻るボタン .- */
+
+.btn_totop {
+padding: 12px;
+border-radius: 3px;
+color: #ddeeff;
+font-weight: 600;
+font-size: 100%;
+text-align: center;
+height: 40px;
+width: 40px; 
+background-color: #fff;
+text-align:right;
+vertical-align:middle;
+border: solid 1px #ddeeff;
+margin:10px 10px 20px 0;
+}  
+	
+.btn_totop:hover {  
+background-color: #f6faff; 
+color: #c3ddf7;
+}
+
+.btn_totop_container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+
+/* -------------------------------------------- */
+/* 		お役立ちリンク集用CSS			　　　			*/
+/* -------------------------------------------- */
+
+/* -- 最新投稿記事 --*/
+
+#display-posts div.content-title{
+	font-size: 120%;
+	color: #333;
+	padding: 10px 15px 8px 20px;
+	display: block;
+	background-color: #eee;
+	font-weight: 700;
+	margin: 30px 0 20px 0;
+	line-height: 1.4em;
+	letter-spacing: 2px;	
+}
+
+#display-posts div.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#display-posts div.image{
+	text-align:center;
+	padding-left: 0;
+}
+
+#display-posts div.image img{
+	padding:0px;
+}
+
+#display-posts div.listing-item {
+	margin-bottom: 10px;
+	padding-bottom: 10px;	
+	border-bottom: 1px dashed #cdcdcd;
+}
+
+#display-posts div.title {
+	margin: 5px 0px;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+/*	padding-left: 20px; */
+}
+
+#display-posts a.title{	
+	color: #0D7BBE;
+}
+
+#display-posts div.title span.excerpt{
+	margin-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+/* -- 人気記事 --*/
+
+#popular-posts div.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+#popular-posts div.content-title{
+	font-size: 120%;
+	color: #333;
+	padding: 10px 15px 8px 20px;
+	display: block;
+	background-color: #eee;
+	font-weight: 700;
+	margin: 30px 0 20px 0;
+	line-height: 1.4em;
+	letter-spacing: 2px;	
+}
+
+
+#popular-posts p{
+	padding:0px;
+	margin:0px;
+}
+
+#popular-posts p.summary{
+	font-size:14px;
+	margin:5px 0px;
+	padding-left: 10px;
+}
+
+#popular-posts div.thumb{
+	text-align:center;
+}
+
+#popular-posts div.thumb img{
+	padding:0px;
+}
+
+#popular-posts div.posts {
+	margin-bottom: 10px;
+	padding-bottom: 10px;	
+	border-bottom: 1px dashed #cdcdcd;
+}
+
+#popular-posts p.title {
+	margin: 5px 0px;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	padding-left: 10px;
+}
+
+#popular-posts a.wpp-post-title{	
+	color: #FF6A1D;
+}
+
+#popular-posts div.title p.summary{
+	margin-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+/* -------------------------------------------- */
+/* 		画像表示切り替えCSS			　　　			*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- スマホサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+
+	.mob_none{
+		display:none;
+	}
+	
+	/* ヘッダー：メニュー部分 */
+	#menutest ul li.mob_none{ 
+		display:none;
+	}
+	
+	#masthead {
+		margin: 0 0 -14px 0;
+	}
+	
+	/* トップ：留学説明会バナー */
+	#contact_box {
+		padding-top: 0;
+	}
+
+	#contact_box_fff {
+		margin-top: 16px;
+		line-height:1.6em;
+		padding: 5px;
+	}
+
+	#contact_box_fff h3{
+		margin: 0 0 14px 0;
+		font-size: 120%;
+		font-weight:900;
+	}
+	
+	/* ヘッダー　メニュー部分 */
+	.header_menu_deco {
+		background-color:#035cb6;
+	}
+
+	/* フッター　リスト部分 */
+ 	.menu_foot1{
+		padding-left:0px;	
+	}
+
+ 	.menu_foot2{
+		padding-left:0px;	
+	}
+	
+	 .menu_foot3{
+		padding-left:0px;	
+	}
+	
+	#menu_footer02{
+			margin-top:40px;
+	}
+	
+	#menu_footer02 ul li{
+		padding:2px 0px;
+
+	}
+
+	#menu_footer03{
+		margin-top:20px;			
+	}
+
+	#menu_footer03 ul li{
+		padding:2px 0px;
+	}
+	
+	/*お気軽にお問合せください */
+	#contact_box h3{
+		text-align:left;
+		color: #0137a4;	
+		font-size: 14px;
+		font-weight: 700;	
+		padding-left:15px;
+		margin-bottom:0px;
+	}
+}
+
+/* -.-.-.-.-.-.-.- モバイル：極小(iphone4,5など)  -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:371px){
+
+	#contact_box{
+		padding:3px;
+	}
+	
+	#contact_box h3{
+		font-size:14px;
+		margin-bottom:0px;
+	}
+	
+	.btndeco3 {
+		height: 63px;
+	}  
+	
+}
+
+/* -.-.-.-.-.-.-.- タブレットサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px) and (max-width:992px){
+
+	.tab_none{
+		display:none;
+	}
+	
+	/* ヘッダー：メニュー部分 */
+	#menutest ul li a{
+		font-size:78%;	
+		padding:10px 10px 10px 10px;
+	}
+	
+	ul.nav li a:hover {
+	color:#116dc8; 
+	border-bottom: 1px solid #ccc;
+	padding-bottom:5px;
+	}
+	
+	#menutest{
+		margin-top:0;
+	}
+	
+	#masthead {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background:url(../images/indexbar.jpg) repeat-x top;
+		border: none;
+		border-radius: 0;
+	}
+	
+	/* フッター */
+	
+	#menu_footer02{
+		float:left;
+	}
+	
+	#menu_footer03{
+		float:left;
+	}
+	
+	#menu_footer02 ul li{
+		padding:2px 0px;
+	}
+	
+	#menu_footer03 ul li{
+		padding:3px 0px;
+	}
+}
+
+/* -.-.-.-.-.-.-.- PCサイズ -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:993px){
+	.pc_none{
+		display:none;
+	}
+	#footer ul li{
+		float: left;	
+		padding:0px 2px;
+	}
+	
+	#menu_footer02{
+		float:left;
+		margin-top:15px;		
+	}
+	
+	#menu_footer03{
+		float:left;
+		margin-top:15px;
+	}
+	
+	
+}
+
+
+.post_title_s {
+	font-size: 140%;
+	color: #0767DB;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 280%;
+}
+
+@media screen and (min-width:768px){
+.post_title_s {
+	display: none;
+}
+.srp-thumbnail-box img {
+	margin-bottom: 5px;
+}
+}
+
+@media screen and (max-width:767px){
+.post_title_l {
+	display: none;
+}
+#popular-posts div.content-title, .post-content {
+	margin-top: 0;
+}
+}

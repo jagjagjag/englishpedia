@@ -1,0 +1,1181 @@
+/*
+Theme Name: engp
+Theme URI: http://engp.co/
+Author: Alj
+Author URI: http://al-j.co.jp/
+Description: for use engp
+Version: 0.9
+License: GNU General Public License
+License URI: license.txt
+Text Domain: engp
+Domain Path: /languages/
+Tags: responsive-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+engp is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+*/
+/* =Global Variables
+----------------------------------------------- */
+/*
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+/* -------------------------------------------- */
+/* 		コンテンツ部分							*/
+/* -------------------------------------------- */
+
+/* This is a fixed for the author box tearing the profile picture */
+
+.avatar {
+
+height: auto !important;
+padding: 0 !important;
+border-radius: 50%;
+
+}
+
+/* Custom CSS to fix Tablet Post View */
+/* By: Odysseus Ambut */
+
+p.title {
+	
+/*	padding-left: 80px !important; */
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+.col-sm-9 {
+	padding-left: 80px;
+}
+
+}
+
+.srp-content-box {
+	
+	padding-left: 10px;
+}
+
+/*End of Custom CSS */
+
+
+.mgnT8 {
+	margin-top: 8px;
+}
+
+.mgnT16 {
+	margin-top: 16px;
+}
+
+.mgnT20 {
+	margin-top: 20px;
+}
+
+.mgnT40 {
+	margin-top: 40px;
+}
+
+.mgnR4 {
+	margin-right: 4px;
+}
+
+.mgnR8 {
+	margin-right: 8px;
+}
+
+.mgnR16 {
+	margin-right: 16px;
+}
+
+.mgnR24 {
+	margin-right: 24px;
+}
+
+.mgnR36 {
+	margin-right: 36px;
+}
+
+.mgnB5 {
+	margin-bottom: 5px;
+}
+
+.mgnB16 {
+	margin-bottom: 16px;
+}
+
+.padT8 {
+	padding-top: 16px;
+}
+
+.w700{
+	font-weight:700;
+}
+
+/* -.-.-.-.-.-.-.- 検索 -.-.-.-.-.-.-.-.-.- */
+#map {
+	margin: 0 4px 16px 4px;
+	padding: 0;
+	background: #fff38c;
+	width: 100%;
+	border: solid 4px #ffe400;
+}
+
+#map h1 {
+	margin: 0;
+	padding: 4px 0 5px 40px;
+	background: url(./images/search.png) no-repeat;
+	background-size: 28px 28px;
+	font-size:150%;
+	font-weight:600;
+}
+
+#map h4 {
+	display:block;
+	padding-top: 14px;
+	font-size:16px;
+	font-weight:600;
+}
+#map_fee {
+		text-align: center;
+		background: #fffce3;
+		padding-top: 15px;
+	    padding-bottom: 10px;
+}
+
+#search_btn{
+	margin: 24px 4px 4px 4px;
+	float: left;
+	width:100%;
+}
+
+.record_low{
+}
+
+
+
+/* ----　追記　---- */
+
+#top_tuition {
+	font-size: 14px;
+}
+
+/* .top_search_btn button {
+	color:#FFF;
+	font-weight:700;
+	margin:15px;
+	float:right;
+	width:94px;
+	height:46px;
+    background: -moz-linear-gradient(top, #1683ef, #0b78e5 1%, #0b78e5 50%, #0572df 99%, #016edb);
+    background: -webkit-gradient(linear, left top, left bottom, from(#1683ef), color-stop(0.01, #0b78e5), color-stop(0.5, #0b78e5), color-stop(0.99, #0572df), to(#016edb));
+	border-radius: 3px;        /* CSS3草案 */
+    -webkit-border-radius: 3px;    /* Safari,Google Chrome用 */
+    -moz-border-radius: 3px;   /* Firefox用 */
+} -- */
+
+.navi_tel {
+	display:block;
+	float:right;
+	font-size:128%;
+	text-align:right;
+}
+
+/* --- 入力フォーム側　--- */
+#map_left {
+	margin: 0;
+	padding: 14px 14px 0px 14px;
+	width: 100%;
+}
+@media (min-width: 768px){
+	#map_left {
+		margin: 0;
+	padding: 14px 14px 0px 14px;
+		width: 260px;
+	}
+}
+@media (min-width: 992px){
+	#map_left {
+		margin: 0;
+	padding: 14px 14px 0px 14px;
+		width: 165px;
+	}
+}
+@media (min-width: 1200px) {
+	#map_left {
+		margin: 0;
+	padding: 14px 14px 0px 14px;
+		width: 280px;
+	}
+}
+
+
+/* --- 地図側　--- */
+#map_right {
+	visibility:hidden;
+	display:none;
+}
+@media (min-width: 768px){
+	#map_right {
+		visibility:visible;
+		display:block;
+		float: right;
+		margin: 0;
+		padding: 0;
+		width: 443px;
+		height: 410px;
+		background: url(./images/map.png) no-repeat;
+		background-size:443px 410px;
+		background-color: #fffce3;
+	}
+}
+
+/* -------　検索欄上解説文(モバイルのみ)　--------- */
+#mob_guide{
+	text-align:center;
+	width:100%;
+}
+
+#mob_guide p{
+	font-weight: 600;
+	color: #1875f3;
+	font-size: 140%;
+	letter-spacing: 0.2em;
+}
+
+.mob_top_catch{
+	width: 100%;
+	margin: 0 auto 0 4px;
+	padding: 0;
+	display:block;
+	background-image:url(./images/bg_mobtop_catch.png);
+	}
+
+.mob_top_catchimg{
+	background-size:100%;
+	width: 100%;
+	margin: 10px auto 15px auto;
+	padding: 0 0 0 0;
+	display:block;
+}
+
+
+/* -------　メニュー(携帯のみ)　--------- */
+.mob_menu {
+	height: 36px;
+	width: 40px;
+	background-size:cover;
+	background-color: none;
+	background-image:url(./images/mob_menu.png);
+	background-repeat: no-repeat;
+	border-radius: 3;
+}
+
+/* -------　検索欄　--------- */
+span.customSelect {
+	font-size: 14px;
+	line-height: 39px;
+	height: 25px;
+	width: 260px;
+	padding: 0 0 0 10px;
+	background: url(./images/select.png) no-repeat left top;
+	color: #333;
+	border: none;
+}
+
+element.style {
+	width: 240px;
+}
+
+span.customSelect.changed {
+	background-color: #f0dea4;
+}
+
+span.customSelectInner {
+	margin: -5px 0 0 0;
+	height: 20px;
+	width: 240px;
+}
+
+#map input {
+	cursor: pointer;
+}
+
+#map_search_left {
+	display: block;
+	margin: 24px 0 0 0;
+	padding: 0;
+	width: 175px;
+	color: #0077ee;
+}
+
+/* --- 検索ボタン ---- */
+#map_search_right {
+	margin: 51px 0 0 0;
+	padding: 0;
+}
+
+/* 検索ボタン(携帯のみ) */
+
+.mobsearch{
+	width: 100%;
+	border-radius: 3px;
+	background-color: #0964bf;
+	border:#0964bf solid 1px;
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.mobsearch a{
+	color: #fff;
+	display: block;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:10px;
+	letter-spacing: 0.06em;
+}
+
+.mobsearch_sp{
+	width: 100%;
+	border-radius: 3px;
+	background-color: #5598e2;
+	border:#5598e2 solid 1px;
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.mobsearch_sp a{
+	color: #fff;
+	display: block;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:10px;
+	letter-spacing: 0.06em;
+}
+
+/* --- その他（携帯のみ） ---- */
+h1.mob_headline {
+	display:block;
+	width: 94%;
+	margin: 15px auto 0 auto;
+	padding: 6px 0 7px 40px;
+	background: url(./images/search02.png) no-repeat;
+	background-size: 28px 28px;
+	font-size:150%;
+	font-weight:600;
+}
+
+/* -.-.-.-.-.-.-.- フェイスブックコメント欄 -.-.-.-.-.-.-.-.-.- */
+#fbcom {
+	/* -margin: 16px 4px;- */
+	padding: 8px;
+	margin-bottom:10px;
+	background: #fff;
+	width: 100%;
+	height: 308px;
+	border: solid 4px #ddeeff;
+}
+
+#fbcom h1 {
+	font-size:150%;
+	font-weight:600;
+	margin: 6px 0 0 4px;
+	padding: 5px 0 10px 40px;
+	background: url(./images/priceless.png) no-repeat;
+	background-size: 28px 28px;
+}
+
+#fbcom dl {
+	margin: 8px 0;
+	height: 228px;
+	overflow: auto;
+}
+
+#fbcom dt {
+	margin: 0;
+	padding: 8px 0 0 0;
+	font-weight: bold;
+	font-size: 98%;
+}
+
+#fbcom dd {
+	padding: 0 0 8px 0;
+	border-bottom: #999 dashed 1px;
+}
+
+#fbcom img {
+	margin: 0 8px 0 0;
+}
+
+#fbcom_link {
+	float: right;
+}
+
+/* -.-.-.-.-.-.-.- 最新レビュー欄 -.-.-.-.-.-.-.-.-.- */
+#revcom_title {
+	margin-bottom:10px;
+	padding: 8px;
+	height: 308px;
+	background: #fff;
+	width:100%;
+	border: solid 4px #ddeeff;
+}
+#revcom_title h1 {
+	font-size:150%;
+	font-weight:600;
+	padding: 5px 0 10px 40px;
+	margin: 6px 0 0 4px;
+	background:url(./images/priceless.png) no-repeat;
+	background-size: 28px 28px;
+}
+
+#revcom_body {
+	background: #fff;
+	width:100%;
+	height:240px;
+	overflow: auto;
+	border-top: 1px solid #ccc;
+}
+
+#revcom_body p{
+	overflow: auto;
+	font-size: 90%;
+}
+
+#revews {
+	margin:10px;
+	background: #fff;
+	width:96%;
+	overflow: auto;
+	border-bottom: #999 dashed 1px;
+}
+
+/* -.-.-.-.-.-.-.- レート欄 -.-.-.-.-.-.-.-.-.- */
+#exchange_title {
+	margin: 0 0 0 0;
+	padding: 8px;
+	background: #ededed;
+	width:100%;
+}
+#exchange_title h1 {
+	font-size:150%;
+	font-weight:600;
+	padding: 5px 0 10px 40px;
+	margin: 6px 0 0 4px;
+	background:url(./images/doll.png) no-repeat;
+	background-size: 28px 28px;
+}
+
+#exchange_title h3{
+	font-size:78%;
+	margin:20px 4px 0 0;
+	float:right;
+}
+
+.exchange_namber{
+	font-weight: 700;
+}
+
+#exchange_body {
+	margin: 0 0 0 0;
+	padding: 10px;
+	background: #fff;
+	width:100%;
+	text-align: center;
+	height:40px;
+}
+
+#exchange_body p{
+    width:100%;
+    margin-bottom: -4px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.09em;
+}
+
+/* 電話をかける */
+
+#calltocampany {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index:1;
+}
+#calltocampany img {
+	width:60px;
+	opacity:0.8;
+}
+
+/* -.-.-.-.-.-.-.- 無料留学説明会 -.-.-.-.-.-.-.-.-.- */
+#infomeeting {
+	margin: 13px 6px 20px 0;
+	padding: 6px 0 5px 0px;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	border: solid 4px #ddeeff;
+}
+
+#infomeeting h1 {
+	margin: 0;
+	padding: 4px 0 9px 40px;
+	font-size: 150%;
+	font-weight:700;
+	background: url(./images/priceless.png) no-repeat;
+	background-size: 28px 28px;
+	border-bottom: #ccc solid 2px;
+	width:95%;
+}
+
+#infomeeting dl {
+	margin: 8px 0;
+	overflow: auto;
+	width: 100%;
+	display:inline;
+}
+
+#infomeeting dt {
+	margin: 0;
+	padding: 8px 0 0 0;
+	font-weight: bold;
+	font-size: 98%;
+}
+
+#infomeeting dd {
+	padding: 0 0 8px 0;
+	border-bottom: #999 dashed 1px;
+}
+
+#infomeeting img {
+	margin-left: -6px;}
+
+.r_botton {
+	margin: 0;
+	padding: 0px 0 0 10px;
+	background: url(./images/sankaku.png) no-repeat;
+	color: #0077ee;
+}
+
+#infomeeting_link {
+	float: right;
+}
+
+/* -.-.-.-.-.-.-.- 最新情報 -.-.-.-.-.-.-.-.-.- */
+#info {
+	margin: 24px 0 0 0;
+	padding: 8px;
+	background: #eef7ff;
+}
+
+#info_text {
+	margin: 0;
+	padding: 0 0 0 16px;
+	background: #FFF;
+	color: #555;
+	line-height: 1.95em;
+}
+
+.r_botton_under {
+	margin: 0;
+	padding: 0px 0 0 12px;
+	background: url(./images/sankaku_under.png) no-repeat;
+	color: #0077ee;
+}
+
+#info_text_solid {
+	height: 20px;
+	margin: 2px 0 0 0;
+	padding: 0;
+	color: #333;
+}
+
+#ichiran {
+	padding: 2px 0 0 0;
+}
+
+/* --　最新情報　無理矢理高さをあわせています　--*/
+.MmgnT {
+	margin-top: -20px;
+}
+
+/* -.-.-.-.-.-.-.- バナー -.-.-.-.-.-.-.-.-.- */
+#info_banner {
+	margin: 0px 0 0 0;
+	padding: 0px 15px;
+}
+.top_tab_banenr{
+	width:293px;
+	margin-bottom:14px;
+}
+
+/* -.-.-.-.-.-.-.- ランキング -.-.-.-.-.-.-.-.-.- */
+/* s:ランキング修正箇所:追加 */
+.new_rank_box{
+	border:10px solid #eef7ff;
+	padding:0px 15px 10px 15px;
+}
+#ranking {
+	height: 714px;
+	z-index:0;
+}
+
+.r_border{border-right:1px dotted #999;}
+
+.new_rank_title{
+	background-color:#eef7ff;
+	margin:0px -15px 10px -15px;
+	padding:5px 20px 15px 20px;
+	font-size:20px;
+	font-weight:700;
+	letter-spacing:3px;
+	
+}
+
+/* e:ランキング修正箇所:追加 */
+/* #ranking {
+	margin:0 0 0 -3px;
+	padding:16px 12px 0 12px;
+	height: 714px;
+	background: #eef7ff;
+	z-index:0;
+}
+ */
+#ranking h1 {
+    letter-spacing: 0.05em;
+    margin: 0 0 8px 0;
+    padding: 16px 0 12px 40px;
+    font-size: 150%;
+    font-weight: 600;
+    color: #114D9C;
+    letter-spacing:2.5px;
+    border-bottom:2px solid #2271DB;
+}
+
+#ranking h1.student {
+	background: url(./images/student_rank.png) no-repeat;
+	background-size: 33px;
+    background-position: 4px 11px;	
+}
+#ranking h1.staff {
+	background: url(./images/staff_rank.png) no-repeat;
+	background-size: 33px;
+    background-position: 4px 11px;	
+}
+
+
+#category .staff_eval{
+	width:115px;
+/* 	margin-bottom:5px; */
+}
+
+#category p.rev_ave{
+	font-size:83%;
+	color:#333;
+}
+#category p.epscore{
+	font-size:90%;
+	color:#333;
+}
+
+#category p.rev_ave span{
+	color:#EC2818;	
+	font-size:120%;
+	font-weight:700;
+}
+
+/* -- 白背景 -- */
+#ranking_box {
+	height: 640px;
+	background: #fff;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+/* --　ひとつひとつの項目 -- */
+#rankings {
+	padding: 2px 10px 8px 10px;
+	overflow: auto;
+	background: #fff;
+	font-size: 90%;
+	color: #0077ee;
+	border-bottom: #999 dashed 1px;
+}
+
+/* --　ランキング　左側（写真、評価） -- */
+/*-- 人気学校ランキング修正箇所 */
+/* #ranking_summary {
+	height: 50%;
+	width: 50%;
+	padding-right: 6px;
+}
+ */
+ #ranking_summary {
+	height: 50%;
+	width: 100%;
+	padding-right: 6px;
+}
+ 
+/*-- 人気学校ランキング修正箇所 --*/
+ 
+.ranking_photo {
+	margin: 4px 8px 0 8px;
+}
+
+#ranking_summary h4 {
+	font-size: 14px;
+	font-weight: 600;
+	color: #0077ee;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+/* -- ランキング番号 -- */
+#ranking_summary h2 {
+	position: relative;
+	top: 65%;
+	width: 26px;
+	font-size: 22px;
+	font-weight: 800;
+	margin: 8px 6px 0px 4px;
+	color: #666;
+}
+
+/* -- 学校の写真 -- */
+#ranking_photo {
+	margin: 32px 8px 0 0;
+}
+
+/* -- カテゴリー -- */
+#category {
+	/* padding: 0 20px 0 24px;  */
+	position: relative;
+	top: 10%;
+	padding-top: 4px;
+}
+
+#category img {
+	margin: 3px 4px 0 0;
+}
+
+.category_img {
+	margin: 3px 4px 0 0;
+	width: 52px;
+	height: 13px;
+}
+
+.category_img2 {
+	margin: 3px 4px 0 0;
+	width: 66px;
+	height: 16px;
+}
+
+#category p img {
+	margin: -3px 4px 0 0;
+}
+
+#category p {
+	font-size: 10px;
+	margin: 4px 0 0 0;
+	color: #333;
+}
+/* -- 右側 文字 -- */
+#ranking_info {
+	padding: 6px 4px 0 0;
+	color: #333;
+	width: 50%;
+	height: 130px;
+	overflow: hidden;
+}
+
+/* -.-.-.-.-.-.-.- 仮コンテンツ -.-.-.-.-.-.-.-.-.- */
+#sub_content h1 {
+	margin: 0;
+	letter-spacing: 0.05em;
+	padding: 4px 0 5px 40px;
+	font-size: 150%;
+	background: url(./images/sub_content_icon.png) no-repeat;
+}
+
+#sub_content {
+	margin: 36px 0;
+	padding: 0;
+}
+
+/* -.-.-.-.-.-.-.- 申し込み -.-.-.-.-.-.-.-.-.- */
+#reserve {
+	margin: 0;
+	padding: 32px 0;
+}
+
+#reserve_img {
+	margin: 16px 16px 16px 0;
+}
+
+#reserve_text h3 {
+	letter-spacing: 0.05em;
+	color: #0077ee;
+	margin: 16px 0;
+	font-size: 140%;
+}
+
+#reserve_text {
+	margin: 0 40px 0 16px;
+	width: 550px;
+}
+
+/* -- 申し込みボタン -- */
+#reserve_button img {
+	margin: 150px 0 15px 0;
+	padding: 0;
+}
+
+/* -.-.-.-.-.-.-.- facebook -.-.-.-.-.-.-.-.-.- */
+#facebook {
+	margin: 0 0 0 24px;
+/* 	border:solid 1px #ccc ; */
+}
+
+#facebook body.plugin{
+	overflow:auto;
+}
+
+#facebook_friend{
+	text-align:center;
+}
+
+/* -.-.-.-.-.-.-.- social box -.-.-.-.-.-.-.-.-.- */
+.sns_box {
+	margin-top: 8px;
+}
+
+.snsb {
+	/*overflow: hidden;*/
+	list-style:none;
+}
+.snsb li {
+	float: right;
+	margin-right: 5px;
+}
+.snsb iframe {
+	margin: 0 !important;
+}
+
+/* -.-.-.-.-.-.-.- ポップアップ-.-.-.-.-.-.-.-.-.- */
+
+.popup a:hover{
+	position:relative;
+}
+
+.popup_mes {
+	position: absolute;
+	top:17px; left:20px;
+	display:none;
+	padding:5px;
+	width : 330px;
+	font-weight : bold;
+	color:#ffffff;
+	background-color: #288eff;
+	text-decoration:none;
+	filter: alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity:0.85;
+}
+
+.popup_mes2 {
+	position: absolute;
+	top:17px; left:20px;
+	display:none;
+	padding:5px;
+	width : 330px;
+	font-weight : bold;
+	color:#ffffff;
+	background-color:#FF8761;
+	text-decoration:none;
+	filter: alpha(opacity=85);
+	-moz-opacity:0.85;
+	opacity:0.85;
+}
+
+a:hover .popup_mes {
+	display: block;z-index:1;
+}
+
+
+
+
+
+/* -------------------------------------------- */
+/* 		画像表示切り替えCSS			　　　			*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- スマホサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:372px) and (max-width:767px){
+
+	/* トップ：バナーサイズ用 */
+	.mob_top_banner_right{
+		padding-right:1px;
+	}
+
+	.mob_top_banner_center{
+		padding-right:8px;
+		padding-left:8px;
+	}
+
+	.mob_top_banner_left{
+		padding-left:1px;
+	}
+
+	/* 検索欄 */
+	#map{
+		background: #f0f7ff;
+		border:none;
+		margin:0 0 16px 0;
+	}
+	.content_color{
+		background: #fff;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	/* その他 */
+	.sns_box {
+		margin-top: 0px;
+	}
+	.navbar-header{
+		margin-bottom:3px;
+	}
+
+
+
+}
+/* -.-.-.-.-.-.-.- モバイル(小)用(iPhone4,5など) -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:371px){
+
+	/* 検索欄 */
+	#map{
+		background: #f0f7ff;
+		border:none;
+	}
+	.content_color{
+		background: #fff;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	/* トップ：バナーサイズ用 */
+	.mob_top_banner_right{
+		padding-right:1px;
+	}
+
+	.mob_top_banner_center{
+		padding-right:8px;
+		padding-left:8px;
+	}
+
+	.mob_top_banner_left{
+		padding-left:1px;
+	}
+
+	#contact_box_fff{
+		margin-top:5px;
+	}
+
+	#contact_box_fff h3{
+		font-size:105%;
+	}
+
+	#contact_box {
+		padding: 3px;
+	}
+
+	/* 検索ボタン(携帯のみ) */
+
+	.mobsearch{
+		font-size:13px;
+		padding: 3px 0px;
+	}
+
+	.mobsearch a{
+		padding: 3px;
+	}
+
+	.mobsearch_sp{
+		font-size:13px;
+		padding: 3px 0px;
+	}
+
+	.mobsearch_sp a{
+		padding: 3px;
+	}
+
+	/* その他 */
+	.sns_box {
+		margin-top: 0px;
+	}
+	.navbar-header{
+		margin-bottom:3px;
+	}
+
+}
+
+
+/* -.-.-.-.-.-.-.- タブレットサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px) and (max-width:992px){
+
+	/* トップ：留学説明会部分 */
+	.tab_semi{
+		padding: 10px 0 7px 0px;
+	}
+
+	.top_seminor_box{
+		padding-left:30px;
+		margin:0px 10px 0px 0px;
+	}
+
+	#ranking{
+		/* width:100%; */
+		height:500px;
+	}
+	
+	#ranking_box{
+		height:440px;
+	}
+	
+	.r_border{
+		border-right:none;
+	}
+	#facebook{
+		display:none;
+	}
+	.seminer_img{
+		margin-bottom:15px;
+	}
+
+	/* 携帯用電話ボタン */
+	#calltocampany {
+		display:none;
+	}
+}
+
+/* -.-.-.-.-.-.-.- PCサイズ -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px){
+
+	/* トップ：留学説明会部分 */
+	.seminer_img{
+		width:100%;
+	}
+
+	.fb-comments{
+		width: 100%!important;
+	}
+
+	/* 携帯用電話ボタン */
+	#calltocampany {
+		display:none;
+	}
+
+
+}
+
+/* -.-.-.-.-.-.-.- PCとタブレットの間 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:981px) and (max-width:1201px){
+
+	.pc_tab_none{
+		display:none;
+	}
+
+	/* トップ：留学説明会部分 */
+	.seminer_img{
+	margin:0 auto;
+	}
+
+	#infomeeting {
+	padding-left: 16px;
+	}
+
+	#infomeeting img {
+	}
+
+	.top_seminor_box{
+		padding-bottom:30px;
+		margin-bottom: 20px;
+	}
+
+	/* トップ：為替レート */
+	#exchange_title {
+		padding: 7px;
+	}
+	#exchange_title h1{
+		padding-bottom:0px;
+	}
+
+	#exchange_title h3{
+		margin-top:0px;
+		padding-bottom: 8px;
+		padding-top: 13px;
+	}
+
+	#map h1{
+		font-size: 138%;
+		padding-bottom: 5px;
+	}
+
+	/* 携帯用電話ボタン */
+	#calltocampany {
+		display:none;
+	}
+
+}
+
+@media screen and (min-width:1201px){
+
+	/* 携帯用電話ボタン */
+	#calltocampany {
+		display:none;
+	}
+		.pc_tab_exchange{
+			display:none;
+		}
+	}
+
+/* -.-.-.-.-.-.-.- FaceBook用 -.-.-.-.-.-.-.-.-.- */
+
+.fb-like-box,
+.fb-like-box span,
+.fb-like-box iframe[style],
+.fb-comments,
+.fb-comments iframe[style],
+.fb-comments span[style]{
+	width: 100%!important;
+	}
+/* -.-.-.-.-.-.-.- CSSハック -.-.-.-.-.-.-.-.-.- */
+
+/* FireFox */
+@-moz-document url-prefix(){
+	ul{
+			list-style:none
+		}
+
+	.mob_top_catchimg{
+		margin: 0px auto 15px auto;
+	}
+}
+
+/* IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+ ul{
+		list-style:none
+	}
+
+	.mob_top_catchimg{
+		margin: 0px auto 15px auto;
+	}
+
+
+}

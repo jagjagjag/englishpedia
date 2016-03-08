@@ -1,0 +1,41 @@
+
+/* ===================================================
+
+このスタイルシートは、イングリッシュペディアの
+ページ下部
+『まずはお気軽にお問い合わせください』
+（　InquiryParts.php　）に対応しています。
+
+作成日　2014年10月〜
+作成者　日笠
+====================================================== */
+
+#esti_contact_btn{
+	width:221px;
+	float:right;
+	padding:4px 20px 10px 0;
+	margin-right:35px; 
+}
+
+#esti_entry_btn{
+	padding: 0;
+	width:221px;
+	float:right;
+	margin-right:35px; 
+}
+
+.esti_contact_p{
+	width: 400px;
+	float:left;
+	margin-top:20px;
+}
+
+.esti_byphone{
+	text-align:left;
+	width:358px;
+}
+
+.incuiry_bntel{
+	margin: 0 auto;
+	max-width: 100%;
+}

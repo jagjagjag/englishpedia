@@ -1,0 +1,298 @@
+/* -------------------------------------------- */
+/* 		モーダルオーバーレイ		*/
+/* -------------------------------------------- */
+#modal-content{
+	width:80%;
+	margin:0;
+	padding:10px 20px 35px 20px;
+	background:#fff;
+	text-align:center;
+	position:fixed;
+	display:none;
+	z-index:2;
+	border-radius: 3px;
+}
+
+#modal-content p{
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+#modal-content p.modal_title{
+	clear:right;
+	font-size:18px;
+	font-weight:600;
+	margin:20px 0px 20px 0px;
+	letter-spacing:0.07em; 
+	color:#666;
+}
+
+#modal-photo-content{
+	width:80%;
+	margin:0;
+	padding:10px 20px 15px 20px;
+	background:#fff;
+	text-align:center;
+	position:fixed;
+	display:none;
+	z-index:2;
+	border-radius: 3px;
+}
+
+#modal-photo-content p{
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+#modal-photo-content p.modal_title{
+	clear:right;
+	font-size:18px;
+	font-weight:600;
+	margin:10px 0px 10px 0px;
+	letter-spacing:0.07em; 
+	color:#666;
+}
+
+.modal_login{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	letter-spacing:0.1em; 
+}
+
+.modal_text{
+	font-size:18px;
+	margin-top: 5px;
+	letter-spacing:0.09em; 
+}
+
+#modal-overlay{
+	z-index:1;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(132,178,209,0.3);
+}
+
+#modal-photo-overlay{
+	z-index:1;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.6);
+}
+
+.modal_shut{
+	float: right;
+	padding-bottom: 20px;
+	margin: 0;
+}
+
+.modal_button{
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #3163b9;
+	font-size:16px;
+	color: #fff;
+	padding: 14px 0 0 6px;
+    margin: 20px auto 20px auto;
+	border-radius: 3px;
+	}
+
+.modal_button a{
+	color: #fff;
+}
+
+.modal_button a hover{
+	color: #fff;
+	background-color: #366fcf;
+}
+
+/* --- 画像が表示される部分 --- */
+#modal_bigimage {
+	width: 640px;
+	height:480px;
+	background:#fff;
+	border: solid 1px #ededed;
+	display: table;
+}
+
+.modal_bigimage_img{
+	display: table-cell;
+	height: 480px;
+	vertical-align: middle;
+	text-align: center;
+	}
+
+.modal_school_photo{
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	width:100%;
+	height:100%;
+}
+
+/* -.-.-.-.-.-.-.- スマホサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:372px) and (max-width:767px){
+
+	#modal-content{
+		width:80%;
+		margin:0;
+		padding:10px 5px 35px 5px;
+	}
+	
+	#modal-content p.modal_title{
+		font-size:16px;
+		margin:20px 10px 20px 10px;
+		letter-spacing:0em; 
+	}
+	
+	#modal-photo-content{
+		width:90%;
+		margin:0;
+		padding:10px 20px 15px 20px;
+	}
+	
+	#modal-photo-content p.modal_title{
+		font-size:16px;
+		margin:10px 10px 10px 10px;
+		letter-spacing:0em; 
+	}
+	
+	.modal_button{
+	width: 80%;
+	}
+	
+	.modal_shut{
+	padding-bottom: 10px;
+	}
+	
+	/* 学校写真 */
+	#modal_bigimage {
+		width: 100%;
+		height:100%;
+		background:#fff;
+		border: solid 1px #ededed;
+		display: table;
+	}
+	.modal_bigimage_img{
+		display: table-cell;
+		height: 300px;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	
+}
+/* -.-.-.-.-.-.-.- モバイル(小)用(iPhone4,5など) -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:371px){
+	#modal-content{
+		width:90%;
+		padding:10px 10px 35px 10px;			
+	}
+	#modal-content p.modal_title{
+		font-size:20px;
+		margin:20px 10px 20px 10px;
+		letter-spacing:0em; 
+	}
+
+	#modal-photo-content{
+		width:95%;
+		padding:10px 10px 15px 10px;			
+	}
+	#modal-photo-content p.modal_title{
+		font-size:20px;
+		margin:0px 10px 0px 10px;
+		letter-spacing:0em; 
+	}
+
+	.modal_button{
+		width: 80%;
+	}
+
+	/* 学校写真 */
+	#modal_bigimage {
+		width: 100%;
+		height:100%;
+		background:#fff;
+		border: solid 1px #ededed;
+		display: table;
+	}
+	.modal_bigimage_img{
+		display: table-cell;
+		height: 360px;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+}
+
+/* -.-.-.-.-.-.-.- PCサイズ -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px){
+	
+#modal-content{
+	width:30%;
+}
+
+#modal-photo-content{
+	width:70%;
+}
+
+.modal_button{
+	text-align: center;
+	width: 70%;
+}
+	
+}
+
+/* -.-.-.-.-.-.-.- PCとタブレットの間 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:981px) and (max-width:1201px){
+#modal-content{
+	width:40%;
+}
+
+#modal-photo-content{
+	width:80%;
+	padding:10px 5px 15px 5px;
+}
+
+.modal_button{
+	text-align: center;
+	width: 70%;
+}
+
+}
+
+/* -.-.-.-.-.-.-.- タブレットサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px) and (max-width:992px){
+	
+#modal-content{
+	width:40%;
+}
+
+#modal-photo-content{
+	width:95%;
+	padding:10px 5px 15px 5px;
+}
+
+.modal_button{
+	text-align: center;
+	width: 70%;
+}
+
+#modal_bigimage {
+	width: 600px;
+	height:450px;
+	background:#fff;
+	border: solid 1px #ededed;
+	display: table;
+}
+
+}

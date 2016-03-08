@@ -1,0 +1,131 @@
+
+/* ===================================================
+
+このスタイルシートは、イングリッシュペディアの
+以下のページに対応しています。
+
+== favorite.php（お気に入りページ）
+
+作成日　2014年10月〜
+作成者　日笠
+====================================================== */
+
+/* --.-.-.-.-.-.-.--.-.-.-.-.-.-.-. */
+/* 	　		 　タイトル			 　 */
+/* -.-.-.-.-.-.-.--.-.-.-.-.-.-.-.- */
+
+h1.favo_entry_title{
+	margin: 0 auto;
+	font-size: 200%;
+	font-weight: 600;
+	padding: 40px 0 6px 16px;
+	letter-spacing: 0.14em;
+	display: block;
+	max-width: 1040px;
+	width: 0 auto;
+	text-align: left;
+}
+
+.favo_entrytitle_hr{
+	padding: 1px 500%;
+	margin: 1px -500% 50px;
+	background-color: #f4f4f4;
+}
+
+/* =========================================== 
+		お気に入り
+=============================================*/
+
+
+#favo_container {
+	max-width: 680px;
+	margin: 0 auto;
+}
+
+#favo_bigbox {
+	width: 100%;
+	border: #CCC solid 1px;
+	margin: 0 0 15px 0;
+    padding: 10px 20px 20px 30px;
+}
+
+.favo_pic {
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    padding-top: 24px;
+    padding-left: 75px;
+
+}
+
+h1.favo_name {
+	font-size: 100%;
+	font-weight: 600;
+}
+
+.favo_btn_entry {
+	float:left;
+}
+
+.favo_btn_delete {
+	float:left;
+	padding-left:20px;
+}
+
+.favo_center {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	padding-left: 10px;
+}
+
+.favo_info {
+	padding-bottom: 10px;
+	font-size:84%;
+}
+
+.favo_nopadding {
+	padding:0;
+}
+
+.favo_check{
+	margin:5px 10px 0px 0px;
+}
+
+.favo_check_navi{
+	margin-bottom:10px;
+}
+
+
+.favo_apply {
+	margin-right: 15px;
+	width: 140px;
+	height:30px;
+}
+
+
+/* -------------------------------------------- */
+/* 		画像表示切り替えCSS			　　　			*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- スマホサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+
+	#favo_bigbox {
+		text-align:center;
+	}
+	
+	.favo_btnset{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+	}
+	
+	h1.favo_entry_title {
+		font-size: 150%;
+	}
+	
+	#favo_bigbox {
+		padding: 10px 10px 20px 10px;	
+	}

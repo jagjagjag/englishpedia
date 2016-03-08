@@ -1,0 +1,57 @@
+/*
+	css/admin-common.css
+	説明:管理画面のスタイルシート
+*/
+
+
+/* -------------------------------------------- */
+/* 		WordPress管理画面		*/
+/* -------------------------------------------- */
+/* ログアウト右寄せ用 */
+#wpadminbar li#wp-admin-bar-new-item-in-admin-bar {
+	display: block;
+}
+#wpadminbar #wp-admin-bar-new-item-in-admin-bar {
+	position: static;
+}
+#wpadminbar #wp-admin-bar-new-item-in-admin-bar {
+	float: right;
+}
+
+
+/* -------------------------------------------- */
+/* 		EnglishPedia管理画面		*/
+/* -------------------------------------------- */
+#engp_ex_meta table th {
+	text-align: left;
+}
+#engp_ex_meta table select {
+	width: 100%;
+}
+#engp_ex_meta table textarea {
+	width: 100%;
+}
+#engp_ex_meta table input[type=text] {
+	width: 100%;
+}
+#engp_ex_meta table input[type=text].mini {
+	width:30%;
+}
+#engp_ex_meta table input[type=checkbox] {
+	margin-left:15px;
+}
+th.cost{
+	cursor:pointer;
+	background:url(../images/btn_down.png) 100px no-repeat;
+	padding-right:15px;
+}
+th.cost.active{
+	background:url(../images/btn_up.png) 100px no-repeat;
+}
+p.return {
+	margin-top: 32px;
+	float: right;
+	padding: 0 0 0 13px;
+	background:url(../images/sankaku_blue.png) no-repeat;
+	font-size:95%;
+}

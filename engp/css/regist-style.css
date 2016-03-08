@@ -1,0 +1,692 @@
+
+/*	ログイン画面	*/
+
+
+/* -------------------------------------------- */
+/* 		共通部分			*/
+/* -------------------------------------------- */
+
+textarea {
+	resize:none;
+}
+
+.mgnT8 {
+	margin-top: 8px;
+}
+
+.mgnL8{
+	margin-left: 8px;
+}
+
+.mgnL16 {
+	margin-left :16px;
+}
+
+.mgnT8 {
+	margin-top: 8px;
+}
+
+.mgnT16 {
+	margin-top: 16px;
+}
+
+.mgnT32 {
+	margin-top: 32px;
+}
+
+.mgnT40 {
+	margin-top:40px;
+}
+
+.mgnR3{
+	margin-right: 3px;
+}
+
+.mgnR8 {
+	margin-right: 8px;
+}
+
+.mgnR16 {
+	margin-right: 16px;
+}
+
+.mgnR24 {
+	margin-right:24px;
+}
+
+.mgnR36 {
+	margin-right:36px;
+}
+
+.mgnB0 {
+	margin-bottom: 0px;
+}
+
+
+.mgnB8 {
+	margin-bottom: 8px;
+}
+
+.mgnB15 {
+	margin-bottom: 15px;
+}
+
+.padT5{
+	padding-top: 5px;
+}
+
+
+.padT8{
+	padding-top: 16px;
+}
+
+.padR5{
+	padding-right:5px;
+}
+
+.padR16 {
+	padding-right: 16px;
+}
+
+/* --.-.-.-.-.-.-.--.-.-.-.-.-.-.-. */
+/* 	　　regist:タイトル部分		　	　 */
+/* -.-.-.-.-.-.-.--.-.-.-.-.-.-.-.- */
+
+h1.regist_entry_title{
+	margin: 0 auto;
+	font-size: 200%;
+	font-weight: 600;
+	padding: 40px 0 6px 16px;
+	letter-spacing: 0.14em;
+	display: block;
+	max-width: 1040px;
+	width: 0 auto;
+	text-align: left;
+}
+
+.regist_entrytitle_hr{
+	padding: 1px 500%;
+	margin: 1px -500% 50px;
+	background-color: #f4f4f4;
+}
+
+.footer_position｛
+	position: relative;	
+	min-height: 100%;
+}
+
+/* --.-.-.-.-.-.-.--.-.-.-.-.-.-.-. */
+/* 	　　regist	　               　 */
+/* -.-.-.-.-.-.-.--.-.-.-.-.-.-.-.- */
+
+.regist_main{
+	margin: 0 auto;
+	margin-bottom: 50px;
+	max-width: 960px;
+}
+
+.regist_content_box{
+    border: 6px solid #eef7ff;
+    padding: 34px;
+	max-width:900px;
+	margin:0 auto;
+}
+
+.regist_content_box2{
+    border: 6px solid #eef7ff;
+    padding: 28px 20px;
+	max-width: 900px;
+	margin: 30px auto;
+	text-align:center;
+}
+
+.regist_content_box2 h2{
+	font-size: 20px;
+	font-color: #666;
+	padding:0 0 10px 0px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 auto 20px auto;
+	width: 80%;
+	line-height: 1.5em;
+}
+
+.regist_content_box3{
+    border: 6px solid #ffeae6;
+	background-color:#fffbfb;
+    padding: 34px;
+	max-width:900px;
+	margin:0 auto;
+}
+
+
+
+.regist_chk_notes{
+	color:#F00;
+	font-size: 18px;
+}
+
+
+.regist_line{
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 1.8em;
+	margin: 20px auto;
+	max-width: 900px;
+}
+
+.regist_head{
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	letter-spacing: 0.1em;
+	padding-top: 5px;
+    margin-bottom: 0px;
+	clear:left;
+}
+
+.review_head{
+	font-size: 15px;
+	font-weight: 600;
+	display: block;
+	letter-spacing: 0.1em;
+	padding-top: 5px;
+    margin-bottom: 0px;
+	clear:left;
+}
+
+
+.review_head2{
+	font-size: 15px;
+	font-weight: 600;
+	color:#F9881B;
+	display: block;
+	letter-spacing: 0.1em;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+    margin-bottom: 0px;
+	clear:left;
+}
+
+.review_content_box{
+    border: 6px solid #ffeae6;
+	background-color:#fffbfb;
+    padding: 34px;
+	max-width:900px;
+	margin:0 auto;
+}
+
+.review_content_box p.title{
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+
+.review_content_box hr{
+	border-top: 1px solid #CDCDCD;
+	margin: 15px 0;
+}
+
+
+
+.regist_box{
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	background-color: #f5f5f5;
+	margin: 24px 0;
+	width: 100%;
+	padding: 12px 0 12px 24px;;
+}
+
+.regist_form{
+	width: 92%;
+	margin: 0 auto;
+}
+
+#regist_confirm{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#btn_regist_confirm{
+    border: 0px;
+    width: 230px;
+    height: 50px;
+    background: url(../images/btn_regist_confirm.png) left top no-repeat;
+	background-size: 230px 50px;
+}
+
+#btn_resign_confirm{
+    border: 0px;
+    width: 230px;
+    height: 50px;
+    background: url(../images/btn_resign.png) left top no-repeat;
+	background-size: 230px 50px;
+}
+
+
+ul.regist_list{
+	width: 100%;
+}
+
+ul.regist_list li{
+	display:inline;
+	list-style: none;
+	padding-right: 20px;
+	width: 30;
+}
+
+ul.regist_list{
+	margin-left: -30px;
+}
+
+li.regist_list_hy{
+	margin:0 2px;
+	width:1px;
+}
+
+.regist_hy{
+	padding-left:20px;
+}
+
+
+/*---↓ 送信内容のご確認ページ ↓---*/
+
+#regist_conf_line{
+	background-color: #eef7ff;
+	letter-spacing: 0.14em;
+	line-height: 1.8em;
+	margin: 0 auto 20px auto;
+	padding: 12px 14px 12px 20px;
+}
+
+#regist_conf_line2{
+	background-color: #fff;
+	letter-spacing: 0.14em;
+	line-height: 1.8em;
+	margin: 0 auto 20px auto;
+	padding: 12px 14px 12px 20px;
+	border:#fff2f0 solid 1px;
+}
+
+#table_regist_conf {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#table_regist_conf th{
+	letter-spacing: 0.2em;
+	line-height: 1.8em;
+	padding: 15px 0 2px 20px;
+	width:25%;
+	vertical-align:top;
+}
+
+#table_regist_conf th.letter_style{
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+#table_regist_conf td{
+	letter-spacing: 0.14em;
+	line-height: 1.8em;
+	padding: 15px 0 15px 20px;
+	vertical-align:top;
+}
+
+#btn_regist_send{
+    border: 0px;
+    width: 110px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/btn_regist_send.png) right top no-repeat;
+	background-size: 100px 40px;
+}
+
+#btn_review_send{
+    border: 0px;
+    width: 100px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/btn_review_confirm.png) left top no-repeat;
+	background-size: 100px 40px;
+}
+
+#btn_renew_send{
+    border: 0px;
+    width: 110px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/renew.png) right top no-repeat;
+	background-size: 100px 40px;
+}
+
+
+#btn_regist_return{
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    background: url(../images/btn_regist_return.png) left top no-repeat;
+	background-size: 100px 40px;
+}
+
+#regist_conf_buttons{
+	margin: 25px auto;
+	text-align: center;
+}
+
+#btn_unregist_send{
+    border: 0px;
+    width: 120px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/btn_resign02.png) right top no-repeat;
+}
+
+#btn_remind_send{
+    border: 0px;
+    width: 120px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/btn_regist_rsend.png) right top no-repeat;
+}
+
+#btn_report_send{
+    border: 0px;
+    width: 120px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/btn_regist_rsend.png) right top no-repeat;
+	background-size: 100px 40px;    
+}
+
+#btn_inquiry_send{
+    border: 0px;
+    width: 110px;
+    height: 40px;
+	margin:20px 0 0 24px;
+    background: url(../images/btn_regist_rsend.png) right top no-repeat;
+	background-size: 100px 40px;
+}
+
+/*---↓ 送信完了のページ ↓---*/
+
+#regist_results_line{
+	font-size:120%;
+	letter-spacing: 0.14em;
+	line-height: 1.8em;
+	margin-bottom: 30px;
+}
+
+#regist_results_line h2{
+	font-size:120%;
+	font-weight: 600;
+	border-bottom: none;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+
+h1.regist_results_h{
+	font-size: 140%;
+	font-weight: 800;
+	padding: 0 0 30px 0;
+	letter-spacing: 0.14em;
+	display: block;
+}
+
+.btn_regist_top{
+    border: 0px;
+    width: 230px;
+    height: 50px;
+}
+
+#regist_results_btn{
+	margin: 0 auto;
+	text-align:center;
+}
+
+.regist_content_box3result{
+    border: 6px solid #ffeae6;
+	background-color:#fffbfb;
+    padding: 34px;
+	max-width:900px;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+/*---↓ ログイン画面 ↓---*/
+
+.login_main{
+	margin:30px auto 10px auto;
+	width: 100%;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.login_content_box{
+	padding:0 0 6px 0;
+	margin-top:10%; 
+	background-color: #FFF;	
+	text-align:center;
+	borer-radius: 3px;
+}
+
+.login_img_logo {
+	text-align:center;
+	margin:15px auto 6px auto;
+	background-size:cover;
+	max-width: 189px;
+}
+
+.search_btn_login {
+	margin-bottom:20px;
+	background: -moz-linear-gradient(top,#006acc 0%,#004fb0);
+	background: -webkit-gradient(linear, left top, left bottom, from(#006acc),to(#004fb0));
+	border: 1px solid #DDD;
+	color:#FFF;
+	width: 100%;
+	padding: 10px 0;
+	border-radius: 4px;
+}
+
+.search_btn_top {
+	margin: 30px 0;
+	background: -moz-linear-gradient(top,#fff 0%,#eee);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff),to(#eee));
+	border: 1px solid #DDD;
+	color:#FFF;
+	width: 200px;
+	padding: 10px 0;
+	border-radius: 4px;
+}
+
+.search_totop {
+	padding-bottom: 0px;
+}
+
+
+h1.user_login {
+	display: block;
+	width: 100%;
+	background-color:#0863be;
+	color: #fff;
+	font-size: 130%;
+	font-weight: 700;
+	margin-bottom:30px;
+	padding: 10px;
+}
+
+p.user_login_p {
+	font-size: 94%;
+	margin: 0 10px 2px 0;
+}
+
+/*---↓ お問い合わせ ↓---*/
+.inquiry_form{
+	width: 92%;
+	margin: 0 auto;
+}
+
+.inquiry_head{
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	letter-spacing: 0.1em;
+	clear:left;
+    margin-bottom: 0px;
+    margin-top: 8px;    
+}
+
+#table_inquiry_conf {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#table_inquiry_conf th{
+	letter-spacing: 0.2em;
+	line-height: 1.8em;
+	padding: 15px 0 2px 20px;
+	width:25%;
+	vertical-align:top;
+}
+
+#table_inquiry_conf th.letter_style{
+		font-weight: 300;
+		padding-bottom: 10px;
+}
+
+
+#table_inquiry_conf td{
+	letter-spacing: 0.14em;
+	line-height: 1.8em;
+	padding: 15px 0 15px 20px;
+	vertical-align:top;	
+}
+
+
+
+/* -------------------------------------------- */
+/* 		ボタン		　　　						*/
+/* -------------------------------------------- */
+
+#regist_button1{
+	letter-spacing: 0.14em;
+	text-align: center;
+	height: 60px;
+	font-weight: 500;
+	color: #3163b9;
+	padding: 18px 0 0 6px;
+    margin: 4px auto 14px auto;  
+	border: solid 1px #CCC;
+	background-color: #FFF;
+	border-radius: 3px;
+}
+
+
+
+/* -------------------------------------------- */
+/* 		画面表示切り替えCSS			　　　		*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- スマホサイズ用１-.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+	
+	
+	/*--- 会員登録  ---*/
+	
+	h1.regist_entry_title{
+	margin: 0 auto;
+	font-size: 154%;
+	font-weight: 600;
+	padding: 20px 0 0 16px;
+	letter-spacing: 0.14em;
+	display: block;
+	max-width: 1040px;
+	width: 0 auto;
+	text-align: left;
+	}
+
+	hr{
+	max-width: 94%;
+	margin: 10px auto 0 auto;
+	}
+
+	.regist_line{
+	font-size: 100%;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	margin: 20px auto;
+	max-width: 880px;
+	}
+	
+	.regist_head{
+	padding: 5px 0 0 0;
+    margin: 12px 0 0 0;
+	}
+	
+	.regist_content_box{
+    padding: 12px;
+	margin-top: 20px;
+	}
+
+	#regist_conf_line{
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	padding: 10px 8px 10px 12px;
+	margin-top:10px;
+	}
+
+	#table_regist_conf th{
+	font-size: 80%;
+	letter-spacing: 0.06em;
+	line-height: 1.4em;
+	padding: 10px 0;
+	width:28%;
+	vertical-align:top;
+	padding: 10px 0;
+	}
+
+	#table_regist_conf th.letter_style{
+		font-weight: 300;
+		padding-bottom: 10px;
+	}
+
+
+	#btn_regist_send{
+	margin:20px 0 0 18px;
+	}
+
+	/*--- お問い合わせ  ---*/
+	#table_inquiry_conf th{
+	letter-spacing: 0.2em;
+	line-height: 1.8em;
+	padding: 10px 0 6px 14px;
+	width:25%;
+	vertical-align:top;
+	text-align: left;
+	}
+
+	#table_inquiry_conf th.letter_style{
+	font-weight: 300;
+	}
+
+	#table_inquiry_conf {
+	width: 100%;
+	margin: 0 auto;
+	}
+	
+	.regist_content_box3{
+	    padding: 34px 10px;
+	}
+	
+	.review_content_box{
+		padding:20px;
+	}
+	
+
+}

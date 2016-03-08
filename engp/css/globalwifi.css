@@ -1,0 +1,53 @@
+.gwifi_h1 {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.gwifi_h2 {
+	margin: 10px 0;
+	padding: 15px 0;
+	border-top: #f1f1f1 8px solid;
+	border-bottom: #f1f1f1 3px solid;
+	color: #007ee9;
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+}
+
+.gwifi_txt1 {
+	font-size: 120%;
+	line-height: 200%;
+	letter-spacing: 1px;
+	margin: 15px 0;
+}
+
+.gwifi_txt1 span {
+	color: #FF7500;
+	font-weight: bold;
+}
+
+.gwifi_txt2 {
+	width: 95%;
+	line-height: 180%;
+}
+
+.gwifi_txt3 {
+	color: #FF7500;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+}
+
+.gwifi_txt3 span {
+	font-size: 120%;
+}
+
+.gwifi_box {
+	float: left;
+	width: 33%;
+}
+
+.gwifi_arrow {
+	text-align: center;
+	margin: 20px 0 10px 0;
+}

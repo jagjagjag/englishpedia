@@ -1,0 +1,1110 @@
+
+/*
+	/estimate/css/style.css
+	説明:/estimate/index.html  /estimate/index.html  (見積もりページ)のスタイルシート
+	制作日:2014年7月15日　
+	制作者:坂口一華
+*/
+
+
+/* -------------------------------------------- */
+/* 		コンテンツ部分			*/
+/* -------------------------------------------- */
+
+.mgnT8 {
+	margin-top: 8px;
+}
+
+.mgnL16 {
+	margin-left :16px;
+}
+
+.mgnT16 {
+	margin-top: 16px;
+}
+
+.mgnT24 {
+	margin-top: 24px;
+}
+
+
+.mgnT32 {
+	margin-top: 32px;
+}
+
+.mgnT40 {
+	margin-top:40px;
+}
+
+.mgnR8 {
+	margin-right: 8px;
+}
+
+.mgnR16 {
+	margin-right: 16px;
+}
+
+.mgnR24 {
+	margin-right:24px;
+}
+
+.mgnR36 {
+	margin-right:36px;
+}
+
+.mgnB8 {
+	margin-bottom: 8px;
+}
+
+.mgnB16 {
+	margin-bottom: 16px;
+}
+
+.padT8{
+	padding-top: 16px;
+}
+
+.padL16 {
+	padding-right:20px;
+}
+
+/* --　境界線 -- */r
+#estimate_hr {
+	margin: 0 0 10px 0;
+}
+
+.content{
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* -- "▲リンク"のclass -- */
+.link_sankaku {
+	
+	padding: 0 0 0 10px;
+	background:url(../images/sankaku_blue.png) no-repeat;
+	font-size:95%;
+	background-size: 7px 14px;
+}
+
+
+/* -- 「留学見積もり」　--*/
+.h1_title{
+	font-size:180%;
+	color:#333;
+	font-weight:600;
+	padding:22px 32px 24px;
+	border-bottom:solid 1px #ccc;
+}
+
+/* -- リンク　--*/
+.link_search{
+	margin: 1px 24px -2px 0;
+	width:148px;
+	height:33px;
+	line-height:33px;
+	background:url(../images/research_button.png) no-repeat;
+	white-space: nowrap;
+}
+
+.link_search a{
+	color:#0077ee;
+	display:block;
+	margin: -3px 0 0 0;
+	padding: 0 0 0 28px;
+	width:145px;
+	height:33px;
+	line-height:43px;
+	font-size:95%;
+}
+
+
+/* -.-.-.-.-.-.-.- もう一度検索する open -.-.-.-.-.-.-.-.-.- */
+#shcool_search {
+	margin: -1px 0 0 1px;
+	padding: 16px;
+	background: #fff7b3;
+	width: auto;
+	border: solid 4px #ffe400;
+}
+
+#shcool_search h1{
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	font-size: 170%;
+	background:url(../../images/search.png) no-repeat;
+	letter-spacing: 0.04em;
+}
+
+#shcool_search h3{
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-size: 95%
+}
+
+
+/* -------　検索欄　--------- */
+.c_select{
+	margin:0 8px 0 0;
+	appearance: button;
+	border-radius:2px;
+	width: 240px;
+	line-height: 25px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+	background:#fff url(../../images/arrow.png) no-repeat;
+	background-size:21px 21px;
+	background-position: right center;
+}
+
+#shcool_search input{
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius:2px;
+	width: 236px;
+	height: 34px;
+	line-height: 23px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+}
+
+
+#shcool_search_under select{
+	margin:0 8px 0 0;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius:2px;
+	width: 240px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+	background:#fff url(../../images/arrow.png) no-repeat;
+	background-size:21px 21px;
+	background-position: right center;
+}
+
+#shcool_search_under input{
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius:2px;
+	width: 236px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* --- 検索ボタン ---- */
+#search_right_button{
+	float: right;
+	margin: 16px 0 0 0;
+	padding: 0;
+	text-align: center;	
+}
+
+/* --- 追記 ---- */
+
+.estimate_label_first{
+	padding:0 14px 0 0;
+	font-weight:500;
+}
+
+.estimate_label{
+	margin-top:12px;
+	padding:0 14px 0x 0;
+	margin-right:10px;
+	font-weight:500;	
+}
+.estimate_label_annotation{
+	font-size:12px;
+	margin:0px;
+	font-weight:500;
+}
+.estimate_separator{
+	margin:15px 0px;
+	border-top:1px solid #DCEBFC;
+}
+
+/* -.-.-.-.-.-.-.- 見積もりをする学校 -.-.-.-.-.-.-.-.-.- */
+#estimate_schoo_waku{
+	margin: 8px 0;
+	padding:8px 0;
+	background: #fff;
+	width: auto;
+	font-size: 115%;
+}
+
+#estimate_school{
+	margin:0;
+	padding:3% 0 3% 0;	
+	text-align: center;
+	border-right:solid 1px #ededed;
+}
+
+#estimate_school p {
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom:0px;
+}
+
+#estimate_school_info {
+	padding: 16px 42px 0px 42px;
+}
+
+#estimate_school_info h1{
+	margin-top:0px;
+	padding: 0px;
+	font-size: 140%;
+	font-weight: 700;
+	
+}
+
+
+/* -.-.-.-.-.-.-.- 見積条件を選択 -.-.-.-.-.-.-.-.-.- */
+#estimate_select_waku{
+	margin: 8px 0;
+	padding:8px 0;
+	background: #f4f9ff;
+	width: 100%;
+	font-size: 104%;
+}
+
+.estimate_school_time{
+	margin:12px 0px -5px 0px;
+}
+
+#estimate_select {
+	margin: 15px 0 0 0;
+	padding:180px 0;		
+	text-align: center;
+	border-right:solid 1px #dcebfc;
+}
+
+#estimate_select p {
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom:0px;
+}
+
+#estimate_select_info {
+	padding:8px 0 4px 42px;
+}
+
+#estimate_select_info h1{
+	font-size: 120%;
+}
+
+#estimate_select_drop{
+	padding:0 0px 0 0;
+	width:auto;
+}
+
+#estimate_select_drop p{
+	font-size:100%;
+	width:auto;
+	font-weight:600;
+}
+
+#estimate_select_button{
+	padding:0 70px 0 70px;
+	width:auto;
+}
+
+.arrange_period_bottom{
+	font-weight:500!important;
+	font-size:12px!important;
+	margin:10px 0px 0px 0px;
+}
+
+.g_select{
+	background-color:#fff;
+	margin:0 120px 0 0;
+	appearance: button;
+	border-radius:2px;
+	width: 300px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+/*	background:#fff url(../images/arrow_blue.png) no-repeat;
+	background-size:32px 25px;
+	background-position: right center; */
+}
+.select_invalid{
+	background-color:#AAA;
+	text-decoration:line-through;
+}
+
+#estimate_title{
+	margin: 20px 0 0 0;
+	padding:16px 0;
+	border-top: solid 6px #edf6ff;
+	border-bottom: solid 6px #edf6ff;
+}
+
+#estimate_title h1 {
+	font-size:160%;
+	padding:4px 38px 0px 38px;
+}
+
+#estimate_title p {
+	width:800px;
+	letter-spacing:0.001em;
+	line-height:1.2em;
+	font-size:95%;
+}
+
+/* ------- スペシャルオファー --------- */
+
+#sp_offer{
+	width:100%;
+	border:solid 1px #eef7ff;
+	padding:0 ;
+	margin: 15px 0 15px 0;
+}
+
+#sp_offer_left{
+}
+#sp_offer_right{
+	font-size: 95%;
+	padding: 8px 24px;
+	background:#f6f6f6;
+	line-height:1.2em;
+}
+
+
+.sp_offer_p{
+	font-weight:bold;
+	padding: 13px 0 13px 32px;
+	margin:0px;
+}
+
+.color_yes{
+	color:#ff6547;
+}
+
+
+/* ----- 表 ------ */
+#table_box{
+	width:100%;
+	height:100%;
+}
+
+
+#table_box.endline{
+	border-bottom: solid 1px #ccc;
+}
+
+/* -- スペシャルオファー有り　表タイトル（留学費用）  -- */
+#table_box h1.glaftitle_nomal {
+	text-align:center;
+	height: auto;
+	width:680px;
+	padding:17px 0;
+	color:#126dc9;
+	border-bottom:solid 6px #edf6ff;
+	font-size:150%;
+	letter-spacing: 0.07em;
+}
+
+/* -- スペシャルオファー有り　表タイトル（スペシャルオファー）  -- */
+#table_box h1.glaftitle_ac{
+	width:442px;
+	text-align:center;
+	height: auto;
+	padding:17px 0;
+	color:#ff6547;
+	border-bottom:solid 6px #ffccc2;
+	font-size:150%;
+	letter-spacing: 0.07em;
+}
+
+/* -- スペシャルオファー無し　表タイトル  -- */
+#table_box h1 {
+	text-align: left;
+	height: auto;
+	width: auto;
+	padding: 4px 0 14px 60px;
+	color: #126dc9;
+	border-bottom: solid 6px #edf6ff;
+	font-size: 130%;
+	letter-spacing: 0.07em;
+	margin:10px 0px 0px 0;
+}
+
+#table_box tr:nth-child(odd) {
+	background:#fafafa;
+}
+
+#table_box .odd {
+	background:#edf6ff;
+	color:#448acf;
+	height:100%;
+}
+
+
+#table_box table {
+	width:100%;
+	border:solid 1px #dfdfdf;
+	border-top:none;
+	table-layout:fixed;
+}
+
+
+.borderL{
+	border-left:solid 1px #dfdfdf;
+}
+
+#table_box tr {
+	border-bottom:solid 1px #dfdfdf;
+	width:100%;
+	height:55px;
+}
+
+#table_box tr.endtr{
+	border-bottom:none;
+}
+
+
+#table_box th {
+	text-align:left;
+	padding:6px 0 0 60px;
+	width: 180px;
+	vertical-align:middle;
+	color:#106bc4;
+}
+
+#table_box td {
+	padding:6px 0;
+	vertical-align: middle;
+	text-align:center;
+}
+
+/* -- スペシャルオファー 無の場合 -- */
+#table_box_nomal{
+	width:80%;
+	margin:0 auto;
+}
+
+/* --スペシャルオファー 有の場合 --- */
+#table_box td.remarks{
+	height:100px;
+	padding:8px 16px;
+	vertical-align: top;
+	text-align:left;
+	overflow:auto;
+	vertical-align:middle;
+}
+
+tr:nth-child(even) .table_box_sp_offer{
+	background:#fff7f6;
+}
+
+tr:nth-child(odd) .table_box_sp_offer {
+	background:#faf2f1;
+}
+
+.glaftitle{
+	color:#126dc9;
+	font-weight:bold;
+	font-size:120%;
+	border-bottom:solid 5px #edf6ff;
+}
+
+.glaftitle_ac{
+	color:#ff6547;
+	font-weight:bold;
+	font-size:120%;
+	border-bottom:solid 5px #ffccc2;
+}
+
+
+
+/* -- ドル（米）/ 日本円換算　の文字の部分 -- */
+.bigfont{
+	font-weight:bold;
+}
+
+
+/* -- 合計 -- */
+.sum{
+	font-size:130%;
+	font-weight:bold;
+	height:100px;
+}
+
+.sumnumber{
+	font-size:120%;
+	font-weight:bold;
+	height:100px;
+}
+
+.color_blue{
+	color:#116dc8;
+}
+
+/* --備考欄 -- */
+
+#estimate_column {
+	width:100%;
+	border:solid 1px #ddd;
+	margin:20px 0 4px 0;
+	padding:25px 25px 14px 25px;
+}
+
+#estimate_column h3 {
+	font-size: 110%;
+	color:#ff6547;
+}
+
+#estimate_column p {
+}
+
+	
+	
+
+
+/* --この見積もりは概算です -- */
+#estimate_contact_box {
+	margin: 40px 0 40px; 0;
+	padding: 10px 24px 10px 24px;
+	background: #f4f4f4;
+	width: 100%;
+	font-weight:bold;
+}
+
+#contact_minibox{
+	background:#f4f4f4;
+	font-weight:normal;
+	color:#666;
+}
+
+#contact_minibox img{
+	margin:0 6px 0 0;
+}
+
+.bigcontact{
+	margin:3px 0 0 0;
+	font-size:260%;
+	color:#666;
+}
+
+.contact_tell{
+	margin:7px 0;
+	color:#116dc8;
+	font-size:130%;
+}
+
+#contact_button{
+	padding: 0 41px;
+}
+
+/* -- 追記 -- */
+
+#esti_contact_btn{
+	float:right;
+	padding:4px 0px 10px 0;
+	margin-right:35px; 
+}
+
+#esti_entry_btn{
+	padding: 0;
+	float:right;
+	margin-right:35px; 
+}
+
+.esti_contact_img{
+	width:208px;
+}
+	
+.esti_apply_img{
+	width:208px;
+}
+
+.esti_contact_p{
+	float:left;
+	margin-top:10px;
+}
+
+.esti_byphone{
+	text-align:left;
+	width:358px;
+}
+
+.esti_asterisk{
+	font-size: 80%;
+}
+
+
+/* -- この国の留学説明会に申し込む...　ボタン部分 --*/
+#detail_link {
+	text-align:center;
+	margin:40px 0 0 0;
+	background:#eef7ff;
+	padding:32px 42px;
+}
+
+#detail_link img{
+	margin:0 20px;
+}
+
+/*　見積もり下部*/
+
+.detail_btn{
+	border-radius: 3px;
+	background-color: #ECCD40;
+	color: #fff;
+	font-weight:600;
+	font-size: 90%;
+	margin: 20px 0px 0px 0px;
+	text-align:center;
+	padding: 10px;
+	width:100%;
+}
+
+.detail_btn a{
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.detail_btn:hover{
+	background-color: #D8B722;
+}
+
+.detail_btn2{
+	border-radius: 3px;
+	background-color: #FDAD49;
+	color: #fff;
+	font-weight:600;
+	font-size: 90%;
+	margin: 20px 0px 0px 0px;
+	text-align:center;
+	padding: 10px;
+	width:100%;
+}
+
+.detail_btn2 a{
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.detail_btn2:hover{
+	background-color: #E69835;
+}
+
+.detail_btnimg{
+	width: 20px;
+	height: 18px; 
+}
+
+.detail_btn3{
+	border-radius: 3px;
+	background-color: #3299FC;
+	color: #fff;
+	font-weight:600;
+	font-size: 90%;
+	margin: 20px 0px 0px 0px;
+	text-align:center;
+	padding: 10px;
+	width:100%;
+}
+
+.detail_btn3 a{
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.detail_btn3:hover{
+	background-color: #2165C2;
+}
+
+
+
+/* -------------------------------------------- */
+/* 		画像表示切り替えCSS			　　　			*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- スマホサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+	
+	/* タイトル */
+	.h1_title {
+		font-size: 150%;
+		font-weight: 600;
+		padding: 16px;
+	}
+	
+	/* 見積もり検索 */		
+	#estimate_select {
+		padding:10px 0;
+		border-right:none;
+	}	
+		
+	#estimate_select_info {
+		padding: 16px 16px 0px 16px;
+	}
+	
+	#estimate_select_drop p{
+	font-weight:600;
+	}
+
+	/* 見積もりをする学校 */		
+	#estimate_school {
+		padding: 16px 16px;
+		border-right:none;
+	}
+	#estimate_school_info {
+		padding: 10px 16px;
+		border-right:none;
+		text-align:center;
+	}
+	#estimate_school_info h1{
+		padding: 0 0 5px 0;
+		font-size: 130%;
+		font-weight: 700;
+		text-align:center;
+	}	
+
+	/* 見積もり条件を検索：チェックボックスラベル */
+	.g_select{
+		margin:0 0px 20px 0;
+		width:240px;
+	}
+	
+	.estimate_label_first{
+		margin-top:0px;
+		margin-bottom:10px;		
+		padding:0 7px 0 0;
+		font-size:90%;
+		font-weight:400;
+	}
+	
+	.estimate_label{
+		margin-top:12px;
+		margin-bottom:0px;
+		padding:0 7px 0x 0;
+		margin-right:10px;
+		font-size:90%;
+		font-weight:400;
+	}
+	
+	
+	.estimate_school_time{
+		margin-top:0px;
+	}
+	.arrange_period_bottom{
+		margin:-20px 0px 25px 0px;
+	}
+	
+	
+	/* 見積もりボタン(小) */
+	.estimate_mob_btn{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:80px;
+	}
+	
+	/*スペシャルオファー：左側 */
+	#sp_offer_left{
+		text-align:center;	
+	}
+	
+	.sp_offer_p{
+		font-size:85%;
+		padding:8px 0px;
+		margin:0;
+	}
+	
+	/*スペシャルオファー：右側 */	
+	#sp_offer_right {
+		font-size:85%;	
+		padding: 8px 15px;
+		text-align:center;		
+	}
+	#estimate_select {
+		margin: 15px 0 0 0;
+		padding:0px 0;
+	}
+	
+	/* 見積もり結果 */
+	#estimate_title h1 {
+		padding: 4px 0px 10px 10px;
+	}
+	#estimate_title p{
+		padding:0px 10px;
+	}
+	
+	/* 留学費用タイトル */
+	#table_box h1.glaftitle{
+		margin: 10px 0px 0px 0;
+		padding: 4px 0 14px 10px;
+		font-size: 110%;
+	}
+	
+	/* 留学費用：表 */	
+	#table_box th{
+		width: 110px;
+		padding: 6px 0 1px 10px;
+	}
+
+	/* 留学費用：合計行 */		
+	.sum {
+		font-size: 110%;
+		font-weight: bold;
+	}
+	.sumnumber {
+		font-size: 110%;
+		font-weight: bold;
+		height: 100px;
+	}
+
+	/* 留学費用：合計行 */		
+	#estimate_column{
+		padding: 25px 10px 14px 10px;
+	}
+	
+	/* 下部見積もり問い合わせボックス*/
+	#esti_contact_btn{
+		float:left;
+		padding: 5px 0px 10px 0px;		
+	}
+	#esti_entry_btn{
+		float:left;
+	}
+	#estimate_contact_box{
+		margin: 20px 0 20px;
+		padding: 10px 10px 20px 10px;
+	}
+	
+	/* 最上部：検索ボタン */
+	.link_search a {
+		width: 121px;
+		font-size: 80%;
+	}	
+	
+	.link_search{
+		width: 121px;
+		margin: 1px 10px -2px 0;
+	}
+	.link_sankaku {
+		padding: 3px 0 0 7px;	
+		margin-right:10px;
+		font-size: 80%;
+	}
+	
+	
+	/* -. 下部留学お申し込みボタン .- */
+
+	.btndeco3 {
+	padding: 12px;
+	border-radius: 3px;
+	margin: 6px auto;
+	color: #06C;
+	font-weight: 600;
+	font-size: 100%;
+	text-align: center;
+	height: 44px;
+	width: 100%; 
+	background-color: #ffe400;
+	}  
+
+	.btndeco3:hover {  
+	color: #438bd4;
+	background-color: #fff279;  
+	}
+	
+	.esti_tell{
+		text-align: center;
+	}
+}
+/* -.-.-.-.-.-.-.- モバイル：極小(iphone4,5など)  -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:371px){
+
+	.g_select{
+		font-size:11px;
+		width:180px;
+	}
+	
+	.link_search{
+		margin-right:4px;
+	}
+
+	.link_sankaku {
+		padding: 3px 0 0 7px;
+		margin-right: 4px;
+		font-size: 70%;
+	}	
+	
+	#sp_offer_left{
+		padding:0px 5px;
+	}
+	
+	#sp_offer_right{
+		padding:3px 5px;	
+		font-size: 80%;
+	}
+
+	.sp_offer_p{
+		font-size: 80%;
+	}
+	#estimate_title h1{
+		font-size: 120%;
+	}
+	
+	#table_box h1.glaftitle{
+		font-size:95%;
+		padding: 4px 0 14px 5px;
+	}
+	.sum {
+		font-size: 85%;
+	}
+}
+
+/* -.-.-.-.-.-.-.- タブレットサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px) and (max-width:992px){
+
+	/* 見積もり検索 */		
+	#estimate_select {
+		border-right:none;
+		margin: 15px 0 0 0;
+		padding:0px 0;	
+	}
+	
+	/* 見積もりをする学校 */		
+	#estimate_school {
+		border-right:none;
+	}
+	#estimate_school_info {
+		border-right:none;
+		text-align:center;
+	}	
+		
+	/*スペシャルオファー：左側 */
+	#sp_offer_left{
+		text-align:center;	
+	}
+	
+	.sp_offer_p{
+		margin:0;
+		padding:8px 0px;		
+	}
+	
+	/*スペシャルオファー：右側 */	
+	#sp_offer_right {
+		font-size:85%;	
+		padding: 8px 15px;
+		text-align:center;		
+	}
+	
+	/* 見積もり結果 */
+	#estimate_title h1 {
+		padding: 4px 0px 10px 10px;
+	}	
+	#estimate_title p{
+		padding:0px 10px;
+	}
+	
+	/* 滞在費：アスタリスク */
+	.esti_asterisk{
+		display:initial;
+	}
+	
+	/* 下部見積もり問い合わせボックス*/
+	#esti_contact_btn{
+		float:left;
+		padding: 5px 0px 10px 0px;		
+	}
+	
+	#esti_entry_btn{
+		float:left;
+	}
+	
+	#contact_minibox{
+		padding-left:20px;
+	}
+}
+
+/* -.-.-.-.-.-.-.- PCサイズ -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:993px){
+	
+	/* 滞在費：アスタリスク */
+	.esti_asterisk{
+		display:none;
+	}
+	
+	#estimate_title h1 {
+		padding: 10px 38px 0px 38px;
+	}
+}
+
+@media screen and (max-width:1089px){
+	#estimate_select_button{
+		padding:0px 30px;
+	}
+}
+
+/* -.-.-.-.-.-.-.- その他調整 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+	/* 下部見積もり問い合わせボックス*/
+	#esti_contact_btn{
+		margin-right:0px; 　
+	}
+
+	#esti_entry_btn{
+		margin-right:0px; 
+	}
+	
+	
+	#estimate_title h1 {
+		padding-left: 35px;
+		padding-top: 10px;
+	}
+	
+	#contact_minibox{
+		background:#f4f4f4;
+		font-weight:normal;
+		color:#666;
+	}
+	
+	#estimate_contact_box {
+		padding: 10px;
+	}
+	
+	.esti_entry_img{
+		width:290px;
+		padding-top: 8px;
+	}
+	
+	.esti_contact_img{
+		width:200px;
+		padding-top: 4px;
+	}
+	
+	.esti_apply_img{
+		width:200px;	
+	}
+	
+}

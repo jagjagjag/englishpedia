@@ -1,0 +1,2160 @@
+
+/*
+	/detil/css/style.css
+	説明:/detil/index.html(一覧ページ)のスタイルシート
+	制作日:2014年7月9日　
+	制作者:坂口一華
+*/
+
+/* -------------------------------------------- */
+/* 		コンテンツ部分							*/
+/* -------------------------------------------- */
+
+.mgnT5 {
+	margin-top: 5px;
+}
+
+.mgnT8 {
+	margin-top: 8px;
+}
+
+.mgnL16 {
+	margin-left :16px;
+}
+
+.mgnT16 {
+	margin-top: 16px;
+}
+
+.mgnT32 {
+	margin-top: 32px;
+}
+
+.mgnT40 {
+	margin-top:40px;
+}
+
+.mgnL16 {
+	margin-left: 16px;
+}
+
+.mgnR8 {
+	margin-right: 8px;
+}
+
+.mgnR16 {
+	margin-right: 16px;
+}
+
+.mgnR24 {
+	margin-right:24px;
+}
+
+.mgnR36 {
+	margin-right:36px;
+}
+
+.mgnB0 {
+	margin-bottom: 0px;
+}
+
+.mgnB3 {
+	margin-bottom: 3px;
+}
+
+.mgnB5 {
+	margin-bottom: 5px;
+}
+
+.mgnB8 {
+	margin-bottom: 8px;
+}
+
+.mgnB16 {
+	margin-bottom: 16px;
+}
+
+.mgnB20 {
+	margin-bottom: 20px;
+}
+
+.padT8{
+	padding-top: 16px;
+}
+
+.padB10{
+	padding-bottom: 10px;
+}
+
+.padL16 {
+	padding-right:20px;
+}
+
+.padR16 {
+	padding-right: 16px;
+}
+
+#hr{
+	margin:0 0 10px 0;
+}
+
+/* -- 三角がついているリンクのclass -- */
+.link_sankaku {
+	padding: 0 0 0 10px;
+	background:url(../images/sankaku_blue.png) no-repeat;
+	letter-spacing:0.02em;
+	font-size:86%;
+	background-size: 7px 14px;
+	}
+
+/* -- 三角がついているリンクのclass -- */
+.link_sankaku_school {
+	padding: 3px 0 0 10px;
+	background:url(../images/sankaku_blue.png) no-repeat;
+	letter-spacing:0.02em;
+	font-size:86%;
+	background-size: 7px 14px;
+}
+
+
+/* --.-.-.-.-.-.-.--.-.-.-.-.-.-.-. */
+/* 		上側			  			*/
+/* -.-.-.-.-.-.-.--.-.-.-.-.-.-.-.- */
+
+/* -- 「もう一度検索する」　--*/
+.link_search{
+	margin: 0 8px -2px 0;
+	width:158px;
+	height:33px;
+	line-height:33px;
+	background:url(../images/research_button.png) no-repeat;
+}
+
+.link_search a{
+	color:#0077ee;
+	display:block;
+	margin: -2px 0 0 0;
+	padding: 0 0 0 28px;
+	height:33px;
+	line-height:40px;
+	font-size:95%;
+}
+
+
+#school_detil{
+	margin: 8px 0;
+	background: #f4f9ff;
+	width: auto;
+	font-size: 115%;
+}
+
+/* -- 追記 --*/
+
+.c_school_country {
+	font-size:80%;
+	padding-top:12px;
+	line-height:1.5em;
+}
+
+#c_school_name {
+	font-size:148%;
+	font-weight:800;
+	margin-top:14px;
+}
+
+#c_school_namejp {
+	font-size:80%;
+	margin:0px 0px 5px 0px;
+}
+
+.c_school_rev {
+	font-size:82%;
+	font-weight:600;
+	margin-bottom:4px;
+	margin-top: 10px;
+}
+
+.staff_eval{
+	width:115px;
+	margin-bottom:5px;
+}
+
+.c_school_satis {
+	font-size:86%;
+	padding-right:6px;
+	font-weight:700;
+}
+.c_school_satis span{
+	font-size:140%;
+	color:#EC2818;	
+}
+
+#favorite {
+	margin: 0 10px 10px 0;
+}
+
+.sear_ico_favorite{
+	width: 36px;
+	float: right;
+	margin-right: 20px;
+}
+
+.search_box_height {
+	height:100%;
+}
+
+h2.search_tuition {
+	font-size: 130%;
+	font-weight:700;
+}
+	
+
+/* -- 国旗　国名 --*/
+.nationalFlag{
+	margin:22px auto 0 auto;
+	width:90%;
+	border-right:#dcebfc 1px solid;
+	padding-top:5px;
+	text-align:center;	
+}
+
+#contry_detil {
+	margin:0;
+	padding:8px 20px;
+	width:109px;
+	border-right:solid 1px #dcebfc;
+}
+
+#contry_detil img {
+	margin: 0 32px 13px;
+	
+}
+
+#contry_detil p {
+	font-size: 90%;
+	
+}
+
+#contry_detil_info {
+	width:778px;
+	padding:16px;
+	border-right:solid 1px #dcebfc;
+}
+
+#contry_detil_info h1{
+	font-size: 140%;
+}
+
+#contry_detil_info p{
+	font-size:90%;
+}
+
+/* -- レビューの数　のボックス -- */
+.title_review{
+	width:98%;
+	border-left:#dcebfc 1px solid;
+	padding-left:13px;
+	margin-bottom: 10px;
+}
+
+/*　レビューを書くボタン */
+.writeReview{
+	margin-top:10px;
+	margin-bottom:0;
+}
+
+a:hover .writeReview{
+	opacity:0.6;
+}
+
+
+.write_review{
+	margin-top:8px;
+}
+
+/*　お気に入りボタン */
+.fav_btn{
+	margin-top:00px;
+}
+
+.fav_btn img{
+	width:120px;
+	height:24px;
+}
+
+/* 	レビュー平均 */	
+#review_evaluation{
+	margin:-8px 0px 10px 0px;
+	padding:5px;
+	border:7px solid #F4F9FF;
+}
+
+#review_evaluation span.number{	
+	font-weight:600;
+	color:#0B91F2;
+}
+
+#review_evaluation .eval_review{
+	margin:0;
+	font-size:12px;	
+	font-weight:600;
+}
+
+.eval_satis{
+	margin:0px;
+	font-size:18px;
+/* 	color:#206ac5; */
+	color:#EC2818;
+	font-weight:700;
+}
+
+#review_evaluation .eval_satis_star{
+	width:80px;
+	margin-bottom:3px;	
+}
+
+#review_evaluation ul{
+	padding:0px;
+}
+
+#review_evaluation ul li{
+	float:left;	
+	font-size:12px;
+}
+
+#review_evaluation ul li.separate{
+	color:#ccc;
+}
+
+#review {
+	padding: 0 0 10px 16px;
+	height:170px;
+	/* border-left:solid 1px #e0e8f2; */
+	width:188px;
+	vertical-align: middle;
+}
+
+#reviewbox {
+	margin: 0;
+	padding: 8px 16px;
+	width : auto;
+	vertical-align: middle;
+	font-size:80%;
+}
+
+#reviewno {
+	margin: 10px 10px 10px 0;
+}
+
+#reviewno h2{
+	margin: 10px 0px;
+	font-size: 18px;
+	font-weight:700;
+	color:#EC2818;
+}
+
+#reviewno p {
+	line-height:1.2em;
+}
+
+.result_color{
+	color:#206ac5;
+	font-size:130%;
+}
+
+h4.search_title_rev {
+	font-size: 120%;
+	font-weight: 600;	
+    margin-bottom: 8px;
+	
+}
+
+/* --.-.-.-.-.-.-.--.-.-.-.-.-.-.-. */
+/* 		左側			  			*/
+/* -.-.-.-.-.-.-.--.-.-.-.-.-.-.-.- */
+
+/* -.-.-.-.-.-.-.- もう一度検索する open -.-.-.-.-.-.-.-.-.- */
+#shcool_search {		
+	margin: 0 0 0 1px;
+	padding: 16px;
+	background: #fff7b3;
+	width: auto;
+	border: solid 4px #ffe400;
+}
+
+#shcool_search h1{		
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	font-size: 130%;
+	font-weight: 700;
+	background:url(../images/search.png) no-repeat;
+	letter-spacing: 0.04em;
+	background-size: 30px 30px;
+}
+
+#shcool_search h3{		
+	margin: 15px 0 5px 0;
+	padding: 0;
+	font-size: 95%;
+	font-weight: 600;
+}
+
+#shcool_search img{
+	margin:6px 0 0 0;
+}
+
+
+/* -.-.-.-.-.-.-.- もう一度検索する 下部 -.-.-.-.-.-.-.-.-.- */
+#shcool_search_under {		
+	margin: -1px 0 0 1px;
+	padding: 16px;
+	background: #fff7b3;
+	width: auto;
+	border: solid 4px #ffe400;
+}
+
+#shcool_search_under h1{		
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	font-size: 170%;
+	background:url(../images/search.png) no-repeat;
+	letter-spacing: 0.04em;
+}
+
+#shcool_search_under h3{		
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-size: 95%
+}
+
+#shcool_search_under img{
+	margin:6px 0 0 0;
+}
+
+
+/* -------　検索欄　--------- */
+.c_select{
+	margin:0 8px 0 0;
+    appearance: button;
+    border-radius:2px;
+	width:100%;
+    line-height: 25px;
+    font-size: 13px;
+    text-indent: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.s_select{
+    appearance: button;
+    border-radius:2px;
+    width: 98%;
+    line-height: 25px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    background-size:21px 21px;
+    background-position: right center;
+}
+
+#shcool_search input{
+    border: none;
+    cursor: pointer;
+}
+
+
+#shcool_search_under select{
+	margin:0 8px 0 0;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border-radius:2px;
+    width: 240px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    text-indent: 1em;
+    border: none;
+    cursor: pointer;
+    background:#fff url(../../images/arrow.png) no-repeat;
+    background-size:21px 21px;
+    background-position: right center;
+}
+
+#shcool_search_under input{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border-radius:2px;
+    width: 240px;
+    height: 25px;
+     width: 236px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 13px;
+    text-indent: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* --- 検索ボタン ---- */
+#search_right_button{
+	margin: 16px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+.btn_compare{
+	width: 223px;
+	height: 30px;
+	margin:0px!important;
+}
+.btn_sort1{
+	width:105px;
+	height:30px;
+}
+
+.btn_sort2{
+	width:97px;
+	height:30px;
+}
+
+
+.search_btnimg{
+	background-size: 94px 47px;
+}
+
+
+/* -.-.-.-.-.-.-.- 地図-.-.-.-.-.-.-.-.-.- */
+#conditions_search {
+	margin:0 0 0 0;
+	padding: 0;
+	background: #f6f6f6;
+	width: auto;
+}
+
+#google_map {
+	margin:0 0 32px 0;
+	background: #f6f6f6;
+	width: auto;
+}
+
+.address{
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	font-size: 83%;
+}
+
+
+#conditions_search select{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border-radius:2px;
+    width: 110px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 13px;
+    text-indent: 1em;
+    border: solid 1px #ccc;
+    cursor: pointer;
+    background:#fff url(../images/search_select.png) no-repeat;
+    background-size:21px 21px;
+    background-position: right center;
+}
+
+#conditions_search_title {
+	margin: 0 0 0 0;
+	padding: 8px 8px 8px 16px;
+	background:#ededed;
+	width:auto;
+}
+
+#conditions_search_title h1{
+	font-size:120%;
+	font-weight:700;
+	padding: 6px 0 6px 37px;
+	margin:6px 0 0 0;
+	letter-spacing: 0.09em;
+	background:url(../images/doll.png) no-repeat;
+	background-size:30px 30px;
+}
+
+#conditions_review_title{
+	margin: 20px 0 0 0;
+	padding: 6px 8px 10px 16px;
+	background:#ededed;
+	width:auto;
+}
+
+#conditions_review_title h1{
+	font-size:120%;
+	font-weight:700;
+	padding: 6px 0 6px 37px;
+	margin:6px 0 0 0;
+	letter-spacing: 0.09em;
+	background:url(../images/review.png) no-repeat;
+	background-size:30px 30px;
+}
+
+.conditions_review_box {
+	padding: 10px;
+	margin:0;
+	border: solid 1px #ededed;
+	border-top: none;
+	font-size: 80%;
+
+}
+
+.conditions_review_name{
+	font-weight: 600;
+	margin:5px 0;
+}
+
+#conditions_review_bottom{
+	padding: 8px 0 12px 0;
+	background:#ededed;
+	margin:0;
+	height: 36px;
+}
+
+#conditions_search_title h2{
+	font-size:120%;
+	font-weight:700;
+	letter-spacing: 0.09em;
+}
+
+#conditions_search_title h3{
+	font-size:90%;
+	padding: 2px 0 0 14px;
+	margin:4px 0 0 0;
+	letter-spacing: 0.09em;
+}
+
+#conditions_search_bottum{
+	padding: 8px 0 8px 0;
+	background:#ededed;
+	margin:0;
+}
+
+#youtube_title {
+	margin: 0 0 0 0;
+	padding: 8px 8px 8px 16px;
+	background:#ededed;
+	width:auto;
+}
+
+#youtube_title h1{
+	font-size:120%;
+	font-weight:700;
+	padding: 6px 0 6px 37px;
+	margin:6px 0 0 0;
+	letter-spacing: 0.09em;
+	background:url(../images/movie.png) no-repeat;
+	background-size:30px 30px;
+}
+
+.youtube_iframe{
+	width:262px;
+	height:147px;
+}
+
+#map_title {
+	margin: 0 0 0 0;
+	padding: 8px 8px 8px 16px;
+	background:#ededed;
+	width:auto;
+}
+
+#map_title h1{
+	font-size:120%;
+	font-weight:700;
+	padding: 6px 0 6px 37px;
+	margin:6px 0 0 0;
+	letter-spacing: 0.09em;
+	background:url(../images/map_icon.png) no-repeat;
+	background-size:30px 30px;
+}
+
+.map_iframe{
+	width:262px;
+	height:147px;
+}
+
+.review_banner {
+	width:262px;
+	height:60px;
+	margin-top:20px;
+}
+
+a:hover .review_banner {
+	opacity:0.6;
+}
+
+
+
+/* -- 学費 -- */
+#dolltable{
+	width:100%;
+	font-size:96%;
+	text-align:left;
+}
+
+#dolltable tr.title{
+	height:30px;
+}
+
+
+#dolltable th.title{
+	font-size:12px;
+	font-weight:700;
+	background-color:#2283DC;
+	border:1px solid #0964BF;
+	color:#FFF;	
+}
+
+.dollar{
+	color:#ff6547;
+		font-weight: bold;
+}
+
+#dolltable tr{
+	height:40px;
+}
+
+#dolltable th{
+	padding:0 12px 0 14px;
+	letter-spacing:0.02em;
+}
+
+#dolltable td{
+	padding:0 10px 0 8px;
+}
+
+#dolltable tr.even{
+	background:#fff;
+}
+
+
+
+/* -.-.-.-.-.-.-.- 閲覧履歴 -.-.-.-.-.-.-.-.-.- */
+
+.historybox img{
+	margin:0 8px 0 0;
+}
+
+/* -- カテゴリー -- */
+.history_category {
+	width:160px;
+	padding: 0 0 0 53px;
+}
+
+
+/* input[type="reset"]{
+	display: block;
+	padding: 2px 0 0 0;
+	width: 49px;
+	line-height: 25px;
+	background: #FFF;
+	border-radius: 3px;
+	border: solid 1px;
+	color: #3099ff;
+	font-weight: bold;
+	font-size: 7pt;
+}*/
+
+#detail_search_title h2{
+	display: block;
+	padding: 2px 0 0 4px;
+	margin: 3px 0 0 6px;
+	width: 49px;
+	line-height: 25px;
+	background: #FFF;
+	border-radius: 3px;
+	border: solid 1px;
+	color: #3099ff;
+	font-weight: bold;
+	font-size: 7pt;
+}
+
+#history_window {
+	margin: 20px 0 0 0;
+	padding: 0 8px 8px 8px;
+	background:#edf6ff;
+	width:auto;
+}
+
+
+#history_window_title{
+	padding: 8px;
+	width:auto;
+}
+
+#history_window h1{
+	font-size:130%;
+	font-weight:700;
+	margin:4px 0 0 0;
+	padding: 5px 0 5px 40px;
+	letter-spacing: 0.09em;
+	background: url(../images/history.png) no-repeat;
+	background-size: 30px 30px;
+}
+
+#history_window h2{
+	display: block;
+	padding: 2px 0 0 4px;
+	margin: 5px 0 0 6px;
+	width: 49px;
+	line-height: 25px;
+	background: #FFF;
+	border-radius: 3px;
+	border: solid 1px;
+	color: #3099ff;
+	font-weight: bold;
+	font-size: 7pt;
+}
+
+#history_window h3{
+	margin: 36px 0 0 0;
+	padding: 0 0 0 15px;
+	background:url(../images/sankaku_search.png) no-repeat;
+	font-size: 110%;
+	letter-spacing: 0.05em;
+}
+
+.historybox {
+	background:#fff;
+	font-size: 70%;
+	line-height:1.2em;
+	padding: 8px;
+}
+
+.historybox p{
+	margin:8px 0 0 0;
+}
+
+
+.historybox_category .lank {
+	width:28%;
+}
+
+/* --.-.-.-.-.-.-.--.-.-.-.-.-.-.-. */
+/* 		右側			  			*/
+/* -.-.-.-.-.-.-.--.-.-.-.-.-.-.-.- */
+
+#search_right{
+	margin:16px 0 50px 0;
+}
+
+/* --- 画像が表示される部分 --- */
+#bigimage {
+	width: 640px;
+	height:480px;
+	background:#fff;
+	border: solid 1px #ededed;
+	display: table;
+}
+
+.bigimage_img{
+	display: table-cell;
+	height: 480px;
+	vertical-align: middle;
+	text-align: center;
+	}
+
+#samimg {
+	margin-top:8px;
+}
+
+#samimg ul li{
+	margin:8px 4px 0 0;
+	float: left;
+	list-style: none;	
+}
+
+#samimg .liend {
+	margin:4px 0 0 0;
+}
+
+#postimg {
+	margin-top:8px;
+}
+
+#postimg ul li{
+	margin:8px 4px 0 0;
+	float: left;
+	list-style: none;	
+}
+
+#postimg .liend {
+	margin:4px 0 0 0;
+}
+
+/* -- 説明文 -- */
+.info_text {
+	font-weight:600;
+	font-size:100%;
+	margin:16px 0;
+	line-height:1.6em;
+}
+
+
+#detail_link {
+	background:#eef7ff;
+	text-align: center;
+	padding: 23px 23px 23px 40px;
+}
+
+.detailtitle_h1 {
+	margin: 22px 0;
+	font-size: 150%;
+	font-weight:700;
+	padding: 22px 0 0 15px;
+	border-top:solid 5px #eef7ff;
+}
+
+
+/*-- スペシャルオファー -- */
+#sp_offer{
+	border:solid 1px #f5f5f5;
+	padding:0 0 0 24px;
+	margin: 36px 0 16px 0;
+}
+
+#sp_offer_left{
+	width:321px;
+}
+
+#sp_offer_right{
+	padding:8px 16px;
+	width:467px;
+	background:#f6f6f6;
+	font-size:88%;
+	line-height:1.2em;
+}
+
+#sp_offer_right p{
+	margin: 0;
+}
+
+
+.sp_offer_p{
+	font-weight:bold;
+    padding-top: 3px;
+	font-size:90%;
+	width:210px;
+}
+
+
+/* --　スペシャルオファー　「あり」　-- */
+.color_yes{
+	color:#ff6547;
+	margin:0 0 0 8px;
+}
+
+
+/*　ボタンセット*/
+
+.detail_btn{
+	border-radius: 3px;
+	background-color: #4e97df;
+	color: #fff;
+	font-weight:600;
+	font-size: 90%;
+	margin: 10px;
+	text-align:center;
+	padding: 6px;
+	width:30%;
+}
+
+.detail_btn a{
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.detail_btn:hover{
+	background-color: #1974ce;
+}
+
+.detail_btn2{
+	border-radius: 3px;
+	background-color: #0964bf;
+	color: #fff;
+	font-weight:600;
+	font-size: 90%;
+	margin: 10px;
+	text-align:center;
+	padding: 6px;
+	width:30%;
+}
+
+.detail_btn2 a{
+	color: #fff;
+	font-weight:500;
+	margin: 0 auto 15px auto;
+	text-align:center;
+}
+
+.detail_btn2:hover{
+	background-color: #1974ce;
+}
+
+.detail_btnimg{
+	width: 20px;
+	height: 18px; 
+}
+
+
+/* ----- 学校詳細タブ table ------ */
+#tabs {
+	margin: 0 0 16px 0;
+	border-top:solid 4px #edf6ff;
+}
+
+#tabs img {
+	margin: 0 16px 0 0;
+}
+
+#review_tab_button {
+	width:248px;
+	height:52px;
+	background:url(../images/tab_button02_no.png);
+	background-repeat:no-repeat;
+	background-size:248px 52px;
+}
+
+#review_tab_button.active {
+	width:248px;
+	height:52px;
+	background:url(../images/tab_button02_yes.png);
+	background-repeat:no-repeat;
+	background-size:248px 52px;
+}
+
+#details_tab_button{
+	width:248px;
+	height:52px;
+	background:url(../images/tab_button01_no.png);
+	background-repeat:no-repeat;
+	background-size:248px 52px;
+}
+
+#details_tab_button.active{
+	width:248px;
+	height:52px;
+	background:url(../images/tab_button01_yes.png);
+	background-repeat:no-repeat;
+	background-size:248px 52px;
+}
+
+#table_box{
+	border-top:solid 1px #ccc;
+	padding:10px 0;
+	width:100%;
+	height:100%;
+}
+
+#table_box td.sp_offer{
+	color:#ff6547;
+	padding-left:41px;
+}
+
+
+#table_box.endline{
+	border-bottom: solid 1px #ccc;
+}
+
+#table_box h1 {
+	text-align:center;
+	width:96px;
+	height: auto;
+	padding:16px 0;
+	vertical-align:top;
+}
+#table_box h1.even {
+	background:#f5f5f5;
+}
+#table_box h1.odd {
+	background:#edf6ff;
+	color:#448acf;
+	height:100%;
+}
+
+#table_box h4 {
+	text-align:center;
+	height: auto;
+	padding:16px 0;
+	vertical-align:top;
+	width:14%;
+}
+#table_box h4.even {
+	background:#f5f5f5;
+	font-size:110%;
+	font-weight:600;
+}
+#table_box h4.odd {
+	background:#edf6ff;
+	color:#448acf;
+	height:100%;
+	font-size:110%;
+	font-weight:600;
+}
+
+#table_box table {
+	width:100%;
+	 
+}
+
+#table_box tr {
+	border-bottom:solid 1px #eee;
+	width:100%;
+	height:48px;
+	font-size:90%;
+}
+#table_box tr.endtr{
+	border-bottom:none;
+}
+
+#table_box tbody {
+	min-width:698px;
+}
+
+#table_box th {
+	border:none;
+	text-align:left;
+	padding:6px 0 0 41px;
+	width: 180px;
+	vertical-align:middle;
+	
+}
+
+#table_box td {
+	border:none;
+	padding:18px 0 11px 0;
+	margin:4px 32px;
+	min-width:120px;
+	vertical-align: top;
+}
+#table_box td.btr{
+	border-bottom:solid 1px #eee;
+}
+#table_box td.a_c{
+	vertical-align:middle;
+}
+
+#table_box td.resson{
+	text-align:left;
+	padding:6px 0 0 41px;
+	width: 180px;
+	 vertical-align:middle;	
+}
+
+#name_box{
+	width: 151px;
+	border-right:solid 1px #ddd;
+	padding:10px 10px 0 10px;
+}
+
+#coment_box {
+	width:778px;
+	padding:16px;
+}
+
+#coment_box p{
+	vertical-align: text-top;
+	margin:0px;
+}
+
+
+#tablesbox{
+	margin: 0 0 6px 0;
+}
+
+/* ----- 学校詳細タブ フルタイム ------ */
+table#table_box_fulltime{
+	width:50%; 
+}
+
+#table_box_fulltime{
+	padding: 0;
+	width:50%;
+	height:100%;0
+	vertical-align:top;
+}
+
+#table_box h4.fulltime {
+	background:#f5f5f5;
+	width:95px;
+	text-align:center;
+	padding:16px 0 0 10px;
+	font-size: 110%;
+	font-weight:600;
+}
+
+#table_box_fulltime table.fulltimewidth{
+	width:80%;
+}
+
+/* ----- 学校詳細タブ スペシャルオファー ------ */
+#table_box h4.sp_offer {
+	background:#fff7f6;
+	color:#ff6547;
+	text-align:center;
+	font-size:98%;
+	padding:16px 0 0 0;
+	font-weight:600;	
+}
+
+#table_box_sp_offer table.sp_offertablewidth{
+	width:100%;
+}
+	
+/* -.-.-.-.-.-.-.- 学校の一覧　ページャ -.-.-.-.-.-.-.-.-.- */
+#pager{
+	width: 100%;
+	border:solid 1px #ecf5fe;
+	padding: 9px 37px 9px 24px;
+	color: #3099ff;
+}
+
+#pager_navi ul li{
+	float: left;
+	list-style: none;
+	text-align:center;
+}
+
+.pager_number{
+	width:30px;
+}
+
+.pager_text{
+	width:75px;
+}
+
+#search_result_pager{
+	width: 100%;
+	border:solid 1px #ddeeff;
+	padding: 9px 37px 9px 24px;
+	color: #3099ff;
+	margin: 5px 0 0 0;
+}
+
+#search_result_pager_navi ul li{
+	float: left;
+	list-style: none;
+	width: 48px;
+	text-align:center;
+	color: #999;
+}
+
+.p_ccc {
+	margin: 5px 3px 0 3px;
+	color:#999;
+	letter-spacing: 0.2em;
+}
+
+.p_ccc2 {
+	margin: 5px 3px 0 3px;
+	letter-spacing: 0.2em;
+}
+
+
+.division_image{
+	width:100%;	
+}
+
+/* -.-.-.-.-.-.-.- この学校を見た人は他の学校も -.-.-.-.-.-.-.-.-.- */
+
+#history_box{
+	margin: 0 24px 20px 0;
+	padding: 16px;
+	width:230px;
+	background:#fff;
+}
+
+.boxend#history_box{
+	margin: 0 0 8px 0;
+}
+
+
+#category{
+	margin:0 0 0 6px;
+	width:130px;
+	font-size:95%;
+	line-height:1.3em;
+	vertical-align:top;
+}
+
+#category p{
+	margin:4px 0 0 0;
+}
+
+.history_h1{
+	font-size: 120%;
+	padding:24px 0;
+	letter-spacing:0.04em;
+}
+
+/* -.-.-.-.-.-.-.- 条件で絞り込む -.-.-.-.-.-.-.-.-.- */
+#detail_search {
+	padding: 24px 16px 10px 16px;
+	background: #f6f6f6;
+	line-height:2.6em;
+}
+
+/* -- 「条件で絞り込む」「リセット」 -- */
+#detail_search_title {
+	margin: 20px 0 0 0;
+	padding: 8px 16px;
+	background:#ededed;
+}
+
+#detail_search_title h1{
+	font-size:130%;
+	font-weight:700;
+	margin:4px 0 0 0;
+	padding: 5px 0 5px 40px;
+	letter-spacing: 0.09em;
+	font-weight: 700;
+	background: url(../images/check.png) no-repeat;
+	letter-spacing: 0.04em;
+	background-size: 30px 30px;
+}
+
+#detail_search_button{
+	text-align:right;
+}
+
+/* -.-.-.-.-.-.-.- 検索結果（何件見つかりました） -.-.-.-.-.-.-.-.-.- */
+#search_result{
+	margin: 0;
+	padding: 14px;
+	background: #f4f9ff;
+	font-size: 115%;
+}
+
+#search_result h2{
+	font-size:120%;
+	line-height: 140%;
+}
+
+.result_color {
+	color:#206ac5;
+	font-size:110%;
+	font-weight:700;
+}
+
+
+/* -- 項目 題 -- */
+
+#detail_search dl{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#acMenu dt{
+	display:block;
+	width:auto;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	text-top:0px;
+	cursor:pointer;
+	background:url(../images/sankaku_search_off.png) 3px 0px no-repeat;
+	padding-right:15px;
+}
+#acMenu dd{
+	width:auto;
+	line-height:30px;
+	text-align:left;
+	display:none;
+}
+	
+#acMenu dt.active{
+    background:url(../images/sankaku_search_on.png) 3px 0px no-repeat;
+}
+
+.start#acMenu h3{
+	margin: 0px 0 0 0;
+	font-size:115%;
+	padding: 0 0 0 15px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	color:#4d9ff1;
+}
+
+#acMenu h3{
+	margin: 16px 0 0 0;
+	font-size:115%;
+	padding: 0 0 0 15px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	color:#4d9ff1;
+}
+
+#acMenu span{
+	padding-left:5px;
+}
+
+/* --授業料　select　カスタム --*/
+span.m_select {
+	font-size:14px;
+	line-height: 33px;
+	height: 21px;
+	width: 100px;
+	padding: -10px 0 0 10px;
+	background: url(../images/select_min.png) no-repeat left top;
+	color: #333;
+	border:none;
+}
+
+span.m_select.customSelectInner{
+	margin:-10px 0 0 0;
+	height:20px;
+	width:200px;
+}
+
+
+/* -.-.-.-.-.-.-.- 並び替えのバー -.-.-.-.-.-.-.-.-.- */
+	
+#search_navi {
+	margin: 16px 0 0 0;
+	background:#f6f6f6;
+}
+
+#search_navi ul {
+	float: left;
+	list-style: none;	
+}
+
+
+#search_navi ul li {
+	float: left;
+	list-style: none;
+	height: 40px;
+	display: block;
+	padding:0px 16px;
+	line-height: 44px;
+}
+
+.search_navi_th {
+	background:#ededed;
+}
+
+.right_border{
+	border-right:solid 1px #ccc;
+}
+
+.left_border{
+	border-left:solid 1px #ccc;
+}
+
+/* -.-.-.-.-.-.-.- 「チェックした学校を...」のバー -.-.-.-.-.-.-.-.-.- */
+#check_navi {
+	margin: 16px 0 0 0;
+	background:#fff;
+}
+
+#check_navi img{
+	margin: 0 0 0 4px;
+}
+
+#check_navi ul li {
+	float: left;
+	list-style: none;
+	line-height: 25px;
+	padding:0 8px 0 0;
+	margin: 8px 0;
+	
+}
+
+#check_navi ul li p{
+	line-height: 25px;
+}
+
+#check_navi ul li img{
+	margin:0px 0 0 10px;	
+}
+
+/* --- チェックボックス ----- */
+.check_all{
+	margin: -6px 8px 0 0;
+	padding-right: 2px;
+	padding-left: 3px;	
+	background:url(../images/check_back.png) no-repeat;
+	height:37px;
+}
+
+.check_all_top{
+	margin: -6px 8px 0 0;
+	padding: 16px 0 0 3px;
+	background:url(../images/check_top.png) no-repeat;
+	height:37px;
+}
+
+
+/* -.-.-.-.-.-.-.- 学校の一覧 -.-.-.-.-.-.-.-.-.- */
+#result_school_box {
+	margin:8px 0 15px 0;
+	width: auto;
+	height:100%;
+}
+
+/* -.-.-.-.-.-.-.- 学校の一覧　ひとつひとつのボックス -.-.-.-.-.-.-.-.-.- */
+/* --------　チェックボックス -------- */
+#check_box input{
+	margin: 0;
+	padding: 0;
+}
+
+#check_box{
+	padding:0 5px 0 5px;
+	margin: 0 8px 0 0;
+	width:20px;
+	height:100%;
+	/* background:#f4f9ff;*/
+	vertical-align: middle;
+}
+
+/* ------ 左-------- */
+#school_img {
+	padding: 10px 15px;
+	vertical-align: middle;
+}
+
+/* -------- 中央 -------- */
+#school_box{
+	margin: 8px 0;
+	height:100%;
+	border:solid 1px #e0e8f2;
+	background-image:url(../images/bg_boxline.png) ;
+	background-repeat: repeat-y;
+}
+
+#school_info{
+	padding:13px 0 8px 0;
+	width:80%;
+	vertical-align: middle;
+	line-height:1.2em;
+}
+
+#school_info h1{
+	margin:3px 0 0 0;
+	font-size:130%;
+	letter-spacing: 0.07em;
+	line-height:1.2em;
+	letter-spacing: 0.01em;
+}
+
+#school_info p{
+/* 	margin: 14px 0 6px 0; */
+	margin: 7px 0 6px 0;
+}
+
+#school_info p.address{
+	font-size: 80%;
+	padding: 4px 0;
+	margin: 0 0 0 0;
+}
+
+.category_img{
+	margin:4px 4px 4px 0;
+}
+
+/* -- 国旗 -- */
+.nationalflag{
+	margin:4px 6px 0 0;
+}
+
+.school_flagimg{
+	width:70px;
+	height:46px;
+}
+
+/* -------- 右 -------- */
+#review {
+	/* padding:16px 12px 16px 16px; */
+	height:170px;
+	/*border-left:solid 1px #e0e8f2; */
+	width:30%;
+	vertical-align: middle;
+}
+
+#reviewbox {
+	margin-top: 8px;
+	width : 100%;
+	vertical-align: middle;
+}
+
+#reviewyes p img{
+	margin:0 0 3px 0;
+	width: 65px;
+}
+
+#reviewno p {
+	line-height:1.2em;
+}
+
+.school_photo{
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	width:100%;
+	height:100%;
+}
+
+
+
+
+/* -.-.-.-.-.-.-.- CSSハック -.-.-.-.-.-.-.-.-.- */
+
+/* FireFox */
+@-moz-document url-prefix(){
+#school_img {
+	padding: 10px 36px 10px 30px;
+	vertical-align: middle;
+	}
+}
+
+
+/* IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+}
+
+
+
+
+/* -------------------------------------------- */
+/* 		画面表示切り替えCSS			　　　			*/
+/* -------------------------------------------- */
+
+/* -.-.-.-.-.-.-.- スマホサイズ用１-.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+	.mob_disp_none{display:none;}
+	
+	/* 学校写真 */
+	#bigimage {
+		width: 100%;
+		height:100%;
+		background:#fff;
+		border: solid 1px #ededed;
+		display: table;
+	}
+	.bigimage_img{
+		display: table-cell;
+		height: 240px;
+		vertical-align: middle;
+		text-align: center;
+	}
+	
+	/* 国旗 */
+	.nationalFlag{
+		border-right:none;
+	}
+	
+	/* タイトル部分、レビュー欄 */
+	.title_review{
+		border-left:none;
+	}
+	
+	/*　センター寄せ(タイトル部分) */
+	.mob_center{
+		text-align:center;
+	}
+	
+	/*　学校名(和名) */
+	#c_school_namejp {
+		font-size:80%;
+		margin:0px 0px 5px 0px;
+	}
+	
+	/*　レビューを書くボタン */
+	.writeReview{
+		margin-top:0px;
+	}
+		
+	/*　学校詳細：お気に入り、レビューを書く */
+	#reviewno_school{
+		margin: 15px 0 10px 0;
+	}
+	
+	
+	/* 学校情報・レビュー切り替えボタン */		
+	#review_tab_button {
+		width:150px;
+		height:31px;
+		background:url(../images/mob_tab_button02_no.png);		
+		background-size:cover;				
+	}
+	
+	#review_tab_button.active {
+		width:150px;
+		height:31px;
+		background:url(../images/mob_tab_button02_yes.png);	
+		background-size:cover;		
+	}
+	
+	#details_tab_button{
+		width:150px;
+		height:31px;
+		background:url(../images/mob_tab_button01_no.png);
+		background-size:cover;			
+	}
+	
+	#details_tab_button.active{
+		width:150px;
+		height:31px;
+		background:url(../images/mob_tab_button01_yes.png);	
+		background-size:cover;	
+	}
+	
+	/* 学校情報：項目タイトル部分パディング */	
+	#table_box th{
+		padding:6px 0 0 20px;
+		width:160px;		
+	}
+	
+	#table_box td.resson{
+		padding:6px 0 0 20px;
+		width:160px;				
+	}
+	
+#table_box td.sp_offer{
+	padding-left:20px;
+}	
+	
+	/* 学校情報：項目タイトル部分 */
+	#table_box h4 {
+		width:20%;
+	}
+	#table_box th.other{
+		width:80px;				
+	}
+	#table_box h4.even {
+		font-size:90%;
+	}
+	#table_box h4.odd {
+		font-size:90%;
+	}
+
+	#table_box h4.sp_offer {
+		font-size:90%;	
+	}
+	
+	/* レビュー：ページャー */
+	.vtaln_top{
+		vertical-align:top;
+	}
+	.pager_number{
+		display:none;
+	}
+	.page_count{
+		margin-bottom: 0px;
+		margin-top: 4px;
+	}	
+	#pager{
+		padding: 9px 10px 9px 10px;
+	}
+
+	/* 学校詳細:お気に入りボタン */
+	.fav_btn{
+		margin:0px auto 2px auto;
+	}
+	/* レビュー：日付 */
+	.review_date{
+		font-size:85%;
+	}
+	
+
+
+	/* 検索結果一覧：学校情報BOX内 */
+	
+	#school_box{
+	margin: 8px 0;
+	width: 100%;
+	border: solid 1px #e0e8f2;
+	background-image: url(../images/bg_boxline04.png) ;
+	}
+
+	#school_info{
+	padding: 0 0 0 44px;
+	line-height: 0.9em;
+	width: 70%;
+	}
+	
+	#school_info p{
+	margin: 4px 0 2px 0;
+	}
+	
+	.sear_ico_favorite{
+	width: 36px;
+	float: right;
+	margin-right: 0;
+	}
+
+	#check_box{
+	display: none;
+	}
+	
+	#review {
+	padding: 10px 0 0 0;
+	width:100%;
+	vertical-align: middle;
+	}
+	
+	.link_sankaku {
+	padding: 0 4px 0 10px;
+	background:url(../images/sankaku_blue.png) no-repeat;
+	letter-spacing:0.02em;
+	font-size:86%;
+	background-size: 7px 14px;
+}
+
+	#shcool_search{
+		margin-top:10px;
+	}
+
+	/* その他 */
+	.mgnT10_mob{
+		margin-top:10px;
+	}
+
+}
+
+/* -.-.-.-.-.-.-.- スマホサイズ用２(スマホ　横　ワイド) -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:480px) and (max-width:766px){	
+
+	/* 検索結果一覧：学校情報BOX内 */
+	#school_img {
+	padding: 20px 20px 10px 20px;
+	vertical-align: middle;
+	float: right;
+	margin: 0 auto; 
+	}
+	
+	#reviewbox {
+	margin: 0 0 0 28px;
+	padding: 0;
+	font-size:80%;
+	}
+
+	#school_info{
+	padding: 10px 0 0 44px;
+	line-height: 0.9em;
+	width: 70%;
+	}
+	
+	#review {
+	padding: 0;
+	width:100%;
+	}
+	
+	h4.search_title_rev {
+	font-size: 120%;
+	font-weight: 600;	
+    margin: 8px 0;
+	}
+	
+	.review_banner{
+		display:none;
+	}
+
+}
+
+
+
+
+
+/* -.-.-.-.-.-.-.- タブレットサイズ用 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/* 学校詳細：国旗 */
+	.nationalFlag{
+		border-right:none;
+	}
+	
+	/* 学校詳細：タイトル部分、レビュー欄 */
+	.title_review{
+		border-left:none;
+	}
+	
+	/*　学校詳細：センター寄せ(タイトル部分) */
+	.mob_center{
+		text-align:center;
+	}
+	
+	/*　学校詳細：学校名(和名) */
+	#c_school_namejp {
+		font-size:80%;
+		margin:0px 0px 15px 0px;
+	}
+	
+	/*　学校詳細：レビューを書くボタン */
+	.writeReview{
+		margin-top:0px;
+		margin-bottom:0px;		
+	}
+
+	/*　学校詳細：お気に入り、レビューを書く */
+	#reviewno_school{
+		margin: 10px 0 10px 0;
+	}
+	
+	/* 学校詳細:お気に入りボタン */
+	.fav_btn{
+		margin:10px auto 5px auto;
+	}
+	
+	
+	/* 検索結果一覧：学校情報BOX内 */
+	#school_box{
+	max-width: 740px;
+	margin: 8px 0;
+	width: 100%;
+	border: solid 1px #e0e8f2;
+	background-image: url(../images/bg_boxline03.png) ;
+	background-size: contain;
+	}
+
+	#school_info{
+	padding:13px 0 8px 0;
+	width:80%;
+	vertical-align: middle;
+	line-height:1.2em;
+	}
+	
+	#result_school_box {
+	margin:8px 0 15px 0;
+	width: auto;
+	width:100%;
+	}
+	
+	#school_img {
+	padding: 40px 20px 10px 20px;
+	vertical-align: middle;
+	float: right;
+	}
+	
+	#school_info{
+	padding: 10px 0 0 0;
+	width: 60%;
+	vertical-align: middle;
+	line-height:1.2em;
+	float: right;
+	}
+
+	#review {
+	padding: 10px 0 0 0;
+	height:100%;
+	width:61%;
+	vertical-align: middle;
+	float: left;
+	}
+	
+	#reviewbox {
+	margin: 0 0 10px 10px;
+	padding: 8px 45px;
+	width : 80%;
+	font-size:80%;
+	}
+
+	#check_box input{
+	margin: 120px 0 0 0;
+	padding: 0;
+	}
+
+	.link_sankaku {
+	padding: 0 0 0 10px;
+	background:url(../images/sankaku_blue.png) no-repeat;
+	background-size:7px 14px;
+	letter-spacing:0.02em;
+	font-size:86%;
+	float: right;
+	margin: -23px 0 0 10px;
+	}
+
+	#school_info p{
+	margin: 10px 0 0 0;
+	}
+
+	#reviewno {
+	margin: 10px 0 0 0;
+	}
+	
+	#reviewyes p img{
+	margin:0 20px 3px 0;
+	}
+
+	.sear_ico_favorite{
+	width: 36px;
+	float: right;
+	margin-right: 40px;
+	}
+		
+	#check_box{
+	display: none;
+	}	
+
+	.review_banner{
+		display:none;
+	}
+
+}
+
+
+
+/* -.-.-.-.-.-.-.- スマホサイズ用１−２(CSS内、後記述が必要のためここに記述します。) -.-.-.-.-.-.-.-.-.- */
+@media screen and (max-width:767px){
+		
+	/* 検索結果一覧：学校情報BOX内 */
+	#school_img {
+	padding: 20px 20px 10px 30px;
+	vertical-align: middle;
+	float: clear;
+	margin: 0 auto; 
+	}
+	
+	#reviewbox {
+	margin: 0 0 0 28px;
+	padding: 0;
+	font-size:80%;
+	}
+	
+	/*　ボタンセット*/
+
+	.detail_btn{
+	width:90%;
+	margin: 10px 15px 10px 10px;
+	}
+
+	.detail_btn2{
+	width:90%;
+	margin: 10px 15px 10px 10px;
+	}
+	
+	#detail_link {
+	padding: 23px 23px 23px 30px;
+	}
+
+
+}
+
+
+
+
+/* -.-.-.-.-.-.-.- PCサイズ -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:768px){
+
+	/* トップ：留学説明会部分 */
+	.seminer_img{
+		width:100%;
+	}
+	
+	
+	/* 学校情報:背景画像 */
+	
+	#table_box table.fee_half{
+		background:url(../images/school_bg_fee1.png);
+		background-repeat: no-repeat;
+		background-position: 100% 50%; 		
+	}
+	#table_box table.fee_full{
+		background:url(../images/school_bg_fee2.png);
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+	}
+	#table_box table.admission{
+		background:url(../images/school_bg_admission.png);
+		background-repeat: no-repeat;
+		background-position: 100% 50%;		
+	}
+
+}
+
+/* -.-.-.-.-.-.-.- PCとタブレットの間 -.-.-.-.-.-.-.-.-.- */
+@media screen and (min-width:981px) and (max-width:1201px){
+	
+	.pc_tab_none{
+		display:none;
+	}
+	
+	.youtube_iframe{
+		width:213px;
+		height:120px;
+	}
+
+	
+	/* トップ：留学説明会部分 */
+	.seminer_img{
+		width:100%;
+	}
+	.top_seminor_box{
+		padding-bottom:30px;
+	}
+	
+	#school_box{
+	margin: 8px 0;
+	height:100%;
+	border:solid 1px #e0e8f2;
+	background-image:url(../images/bg_boxline02.png) ;
+	background-repeat: repeat-y;
+	}
+
+	/* 検索結果一覧：学校情報BOX内 */
+	#reviewbox {
+	margin: 0;
+	padding: 8px 5px;
+	width : auto;
+	vertical-align: middle;
+	font-size:80%;
+	}
+
+	.sear_ico_favorite{
+	width: 36px;
+	float: right;
+	margin-right: 0;
+	}
+
+	#review {
+	padding: 10px 0 0 0;
+	height:170px;
+	/* border-left:solid 1px #e0e8f2; */
+	width:100%;
+	vertical-align: middle;
+	}
+	
+	#school_img {
+	padding: 10px 15px 10px 20px;
+	}
+
+	.fav_btn{
+		margin-top:10px;
+		margin-bottom:0;
+	}
+
+	#review_evaluation .eval_satis_star{
+		width:50px;
+	}
+		
+}
+@media screen and (min-width:800px) and (max-width:1200px){
+	/*レビューバナー*/
+	.review_banner {
+		width:212px;
+		height:auto;
+		margin-top:16px;
+	}
+
+	.review0_banner {
+		width:212px;
+		height:48px;
+		margin-top:-4px;
+	}
+
+	
+}
+

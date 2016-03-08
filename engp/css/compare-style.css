@@ -1,0 +1,534 @@
+/*
+	/css/compare-style.css
+	説明:/compare.html(比較ページ)のスタイルシート
+	制作日:2014年7月15日　
+	制作者:坂口一華
+*/
+
+
+/* -------------------------------------------- */
+/* 		コンテンツ部分			*/
+/* -------------------------------------------- */
+
+.mgnT8 {
+	margin-top: 8px;
+}
+
+.mgnT16 {
+	margin-top: 16px;
+}
+
+.mgnT24 {
+	margin-top: 24px;
+}
+
+.mgnT32 {
+	margin-top: 32px;
+}
+
+.mgnT40 {
+	margin-top:40px;
+}
+
+.mgnL8 {
+	margin-left :8px;
+}
+
+.mgnL16 {
+	margin-left :16px;
+}
+
+.mgnR8 {
+	margin-right: 8px;
+}
+
+.mgnR16 {
+	margin-right: 16px;
+}
+
+.mgnR24 {
+	margin-right:24px;
+}
+
+.mgnR36 {
+	margin-right:36px;
+}
+
+.mgnB8 {
+	margin-bottom: 8px;
+}
+
+.mgnB16 {
+	margin-bottom: 16px;
+}
+
+.padT8{
+	padding-top: 16px;
+}
+
+.padL16 {
+	padding-right:20px;
+}
+
+#compare_hr {
+	margin: 0px 0px 10px;
+}
+
+.content{
+	width: 1122px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* -- "▲リンク"のclass -- */
+.link_sankaku {
+	padding: 0 0 0 10px;
+	background: url(../images/sankaku_blue.png) no-repeat;
+	font-size: 95%;
+	background-size:7px 14px;
+}
+
+/* -- 「留学見積もり」　--*/
+.h1_title{
+	margin:42px 32px 24px;
+	font-size:180%;
+}
+
+/* -- リンク　--*/
+.link_search{
+	margin: 0 8px 0 0;
+	width:158px;
+	height:33px;
+	line-height:33px;
+	background:url(../images/research_button.png) no-repeat;
+}
+
+.link_search a{
+	color:#0077ee;
+	display:block;
+	margin: -2px 0 0 0;
+	padding: 0 0 0 28px;
+	height:33px;
+	line-height:43px;
+	font-size:95%;
+}
+
+/* -.-.-.-.-.-.-.- もう一度検索する open -.-.-.-.-.-.-.-.-.- */
+#shcool_search {
+	margin: -1px 0 0 1px;
+	padding: 16px;
+	background: #fff7b3;
+	width: auto;
+	border: solid 4px #ffe400;
+}
+
+#shcool_search h1{
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	font-size: 170%;
+	background:url(../../images/search.png) no-repeat;
+	letter-spacing: 0.04em;
+}
+
+#shcool_search h3{
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-size: 95%
+}
+
+/* -.-.-.-.-.-.-.- もう一度検索する 下部 -.-.-.-.-.-.-.-.-.- */
+#shcool_search_under {
+	margin: -1px 0 0 1px;
+	padding: 16px;
+	background: #fff7b3;
+	width: auto;
+	border: solid 4px #ffe400;
+}
+
+#shcool_search_under h1{
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	font-size: 170%;
+	background:url(../../images/search.png) no-repeat;
+	letter-spacing: 0.04em;
+}
+
+#shcool_search_under h3{
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-size: 95%
+}
+
+#shcool_search_under img{
+	margin:6px 0 0 0;
+}
+
+/* -------　検索欄　--------- */
+.c_select{
+	margin:0 8px 0 0;
+	appearance: button;
+	border-radius:2px;
+	width: 240px;
+	line-height: 25px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+	background:#fff url(../../images/arrow.png) no-repeat;
+	background-size:21px 21px;
+	background-position: right center;
+}
+
+.s_select{
+	margin:0 8px 0 0;
+	appearance: button;
+	border-radius:2px;
+	width: 210px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+	background-size:21px 21px;
+	background-position: right center;
+}
+
+#shcool_search input{
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius:2px;
+	width: 210px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+}
+
+#shcool_search_under select{
+	margin:0 8px 0 0;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius:2px;
+	width: 240px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+	background:#fff url(../../images/arrow.png) no-repeat;
+	background-size:21px 21px;
+	background-position: right center;
+}
+
+#shcool_search_under input{
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	border-radius:2px;
+	width: 210px;
+	height: 23px;
+	line-height: 23px;
+	font-size: 13px;
+	text-indent: 1em;
+	border: none;
+	cursor: pointer;
+}
+
+/* --- 検索ボタン ---- */
+#search_right_button{
+	float: right;
+	margin: 16px 0 0 0;
+	padding: 0;
+	text-align: center;	
+}
+
+/* -.-.-.-.-.-.-.- 検索条件 、 何校中 何校 、 詳細比較 -.-.-.-.-.-.-.-.-.- */
+#search_result{
+	margin: 10px 0;
+	padding: 16px 24px;
+	margin:8px 0 24px 0;
+	background: #f4f9ff;
+	width: 100%;
+	font-size: 120%;
+	letter-spacing:0.05em;
+	line-height:1em;
+	color:#555;
+}
+#search_result h2{
+	font-size: 120%;
+	line-height: 140%;
+	margin:5px 0px;
+}
+
+.result_color {
+	color:#206ac5;
+	font-size:120%;
+	font-weight: 700;	
+}
+
+/* --- ---- -- 表 --- ----- --- */
+#table_box{
+	width:100%;
+	height:100%;
+	margin:0 0 40px 0;
+	border-left:solid 1px #dfdfdf;
+}
+
+#table_box tr:nth-child(even) {
+	background:#fafafa;
+}
+
+#table_box table#result1  {
+	font-size:95%;
+	width:345px;
+	border:solid 1px #dfdfdf;
+	table-layout:fixed;
+}
+
+#table_box table#result2 {
+	font-size:95%;
+	width:500px;
+	border:solid 1px #dfdfdf;
+	table-layout:fixed;
+}
+
+#table_box table#result3 {
+	font-size:95%;
+	width:655px;
+	border:solid 1px #dfdfdf;
+	table-layout:fixed;
+}
+
+#table_box table#result4 {
+	font-size:95%;
+	width:810px;
+	border:solid 1px #dfdfdf;
+	table-layout:fixed;
+}
+
+#table_box table#result5 {
+	font-size:95%;
+	width:965px;
+	border:solid 1px #dfdfdf;
+	table-layout:fixed;
+}
+
+#table_box table#result6 {
+	font-size:95%;
+	width:1120px;
+	border:solid 1px #dfdfdf;
+	table-layout:fixed;
+}
+
+#table_box table th, #table_box table td{
+	border-right:solid 1px #dfdfdf;
+}
+
+.borderL{
+	border-left:solid 1px #dfdfdf;
+}
+
+#table_box tr {
+	width:100%;
+	height:45px;
+}
+
+#table_box tr.endtr{
+	border-bottom:none;
+}
+
+
+#table_box th {
+	width:95px;
+	text-align: left;
+	padding: 8px 5px 8px 15px;
+	vertical-align: middle;
+}
+
+#table_box td {
+	padding:8px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+/* 消去ボックス */
+#table_box tr.delete_bar {
+	background:#edf6ff;
+	border-top:solid 1px #dfdfdf;
+	border-bottom:solid 1px #95c2ee;
+}
+
+/* 比較テーブル側面ヘッダ */
+#table_box th.side_header {
+	width:190px;
+}
+
+/* 比較テーブル項目 */
+#table_box td.column_box {
+	width:155px;
+}
+
+/* 所在地 */
+.location{
+	font-weight:bold;
+}
+
+.location img{
+	margin:-2px 7px 0 0;
+}
+
+/* 学校名 */
+#table_box td.school{
+	text-align:left;
+	line-height:1.31em;
+}
+/* ランキング */
+.ranking{
+	font-weight:bold;
+	color:#f43400;
+}
+
+/* スタッフ評価(星の画像) */
+td.staff img{
+	width:115px;
+}
+
+/* 留学生の満足度 */
+#table_box td.review{
+	font-weight:bold;
+	padding:8px 0 8px 20px;
+}
+
+#table_box td.review img{
+	margin:5px 0 5px 0;
+	width: 80px;
+}
+
+#table_box td.review .eval{
+	font-size:18px;
+	font-weight:700;
+	color:#206ac5;
+	margin:5px 0px;
+}
+
+/* 授業料 */
+.tuition{
+	color:#ff3758;
+	font-weight:bold;
+}
+
+/* 学校情報 */
+#table_box tr.school_bar {
+	background:#ffe9e9;
+	border-bottom:solid 1px #ffacac;
+	color:#f85f8a;
+}
+
+#table_box tr:nth-child(odd) .school_bar{
+	background:#fff9f9;
+}
+
+#table_box tr:nth-child(even) .school_bar{
+	background:#f6f0f0;
+}
+
+/* 周辺情報 */
+#table_box tr.area_bar {
+	background:#f1fde4;
+	border-bottom:solid 1px #a0d369;
+	color:#609923;
+}
+
+#table_box tr:nth-child(odd) .area_bar{
+	background:#f2f5ee;
+}
+
+#table_box tr:nth-child(even) .area_bar{
+	background:#fbfef7;
+}
+
+/* --- -- アコーディオン -- --- */
+tr#actr{
+	display:table-row;
+}
+
+#actr th{
+	width:auto;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	cursor:pointer;
+	background:url(../images/stretch.png) 105px 15px no-repeat;
+	padding-right:15px;
+}
+
+#actr th.active{
+	background:url(../images/stretch_plus.png) 105px 15px no-repeat;
+}
+
+tr.sltr {
+	display:table-row;
+	border-bottom:solid 1px #dfdfdf;
+}
+
+tr#actr2{
+	display:table-row;
+}
+
+tr#actr2{
+	display:table-row;
+}
+
+
+tr.sltr2 {
+	display:table-row;
+	border-bottom:solid 1px #dfdfdf;
+}
+
+#actr2 th{
+	width:auto;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	cursor:pointer;
+	background:url(../images/stretch.png) 76px 15px no-repeat;
+	padding-right:15px;
+}
+
+#actr2 th.active{
+	background:url(../images/stretch_plus.png) 76px 15px no-repeat;
+}
+
+tr#actr3{
+	display:table-row;
+}
+
+tr#actr3{
+	display:table-row;
+}
+
+
+tr.sltr3 {
+	display:table-row;
+	border-bottom:solid 1px #dfdfdf;
+}
+
+#actr3 th{
+	width:auto;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	cursor:pointer;
+	background:url(../images/stretch.png) 110px 15px no-repeat;
+	padding-right:15px;
+}
+
+#actr3 th.active{
+	background:url(../images/stretch_plus.png) 110px 15px no-repeat;
+}
